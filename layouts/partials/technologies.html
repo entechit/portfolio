@@ -1,0 +1,12 @@
+{{ "<!-- technologies -->" | safeHTML }}
+<section id="technol" class="bg-light-gray">
+  <div class="container">
+
+     <h2 class="section-heading">{{ with .Site.Params.technologies.title }}{{ . | markdownify }}{{ end }}</h2>
+     <h3 class="section-subheading text-muted">{{ with .Site.Params.technologies.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+
+     <div id = "tech-gif">
+     </div>
+    <p>{{ with .Site.Params.technologies.description }}{{ . | markdownify }}{{ end }}</p>
+  </div>
+</section>

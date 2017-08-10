@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "http://localhost:1313/"
+baseurl = "http://entechit.com.ua/"
 languageCode = "en-us"
-title = "Agency"
+title = "Web-studio EntechIT"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -79,7 +79,15 @@ googleAnalytics = ""
     subtitle = "Трудимся для Вашего успеха"
     buttonText = "Узнать больше"
 
-
+ # technologies section
+  [params.technologies]
+    enable = true
+    title = "Технологии"
+    subtitle = "Для разработки современных сайтов"
+    icon = "techologies.gif"
+    description = "Здесь описаны технологии о которых мы слышали!"
+    
+ 
   # Services section
   [params.services]
     enable = true
@@ -89,23 +97,43 @@ googleAnalytics = ""
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "Landing Page"
-      description = "Лендинг — это отличный инструмент с высокой конверсией для продажи товаров, услуг, привлечения аудитории на мероприятие."
+      icon = "icon-i_1r"
+      title = "Интернет<br> магазин"
+      description = "Рост продаж Ваших товаров в интернете благодаря продуманным интерфейсным решениям."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "E-Commerce"
-      description = "Сайт повышает узнаваемость компании, позволяет оперативно информировать о новых достижениях, направлениях деятельности"
+      icon = "icon-i_2r"
+      title = "Корпоративный<br> сайт"
+      description = "Создание имиджа компании для повышения конкурентоспособности Вашего бизнеса."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Разработка комплексных web — систем для решения учетных или вычислительных задач"
-	 
+      icon = "icon-i_3r"
+      title = "Landing<br> Page"
+      description = "Покупка в один клик! Разработаем яркий и эффективный дизайн для рекламы Вашего товара."
+	  url = "#"
+	  
+	  [[params.services.row.list]]
+      icon = "icon-i_4r"
+      title = "Сайт<br> визитка"
+      description = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula. "
+	  url = "#"
+	  
+	  [[params.services.row.list]]
+      icon = "icon-i_5r"
+      title = "Web<br> системы"
+      description = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula."
       url = "#"
+	  
+	  [[params.services.row.list]]
+      icon = "icon-i_6r"
+      title = "Техническая<br> поддержка"
+      description = "Стабильная работа сайта, защищенность от атак и «падений», правильное развитие для успешной оптимизации."
+      url = "#"
+
+	  
+	  
 
   # Portfolio section
   [params.portfolio]
