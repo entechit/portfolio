@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "http://entechit.com.ua/"
+baseurl = "http://localhost:1313/"
 languageCode = "en-us"
-title = "Web-studio EntechIT"
+title = "Agency"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -79,15 +79,7 @@ googleAnalytics = ""
     subtitle = "Трудимся для Вашего успеха"
     buttonText = "Узнать больше"
 
- # technologies section
-  [params.technologies]
-    enable = true
-    title = "Технологии"
-    subtitle = "Для разработки современных сайтов"
-    icon = "techologies.gif"
-    description = "Здесь описаны технологии о которых мы слышали!"
-    
- 
+
   # Services section
   [params.services]
     enable = true
@@ -129,7 +121,7 @@ googleAnalytics = ""
 	  [[params.services.row.list]]
       icon = "icon-i_6r"
       title = "Техническая<br> поддержка"
-      description = "Стабильная работа сайта, защищенность от атак и «падений», правильное развитие для успешной оптимизации."
+      description = "Стабильная работа сайта, защищенность от атак и «падений», развитие для успешной оптимизации."
       url = "#"
 
 	  

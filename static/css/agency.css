@@ -170,7 +170,7 @@ h6 {
 }
 
 .bg-light-gray {
-   background-color: #fff;
+   background-color: #edf4fa;   ;
 }
 
 .bg-darkest-gray {
@@ -491,7 +491,7 @@ section h3.section-subheading {
 	padding: 0 40px;
 }
 #services  {
-	background-color: #ffffda;
+	background-color: rgba(255, 255, 218, .5);
 }
 
 
@@ -549,18 +549,21 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #ffffda;
+    background-color: #fff;
+	;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
+	font-family: ConstantiaBold;
     margin: 0;
     text-transform: none;
+	color: #7a2c61;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-family: ConstantiaI;
+    font-size: 20px;
     font-style: italic;
 }
 
