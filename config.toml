@@ -79,6 +79,14 @@ googleAnalytics = ""
     subtitle = "Трудимся для Вашего успеха"
     buttonText = "Узнать больше"
 
+# technologies section
+    [params.technologies]
+      enable = true
+      title = "Технологии"
+      subtitle = "Для разработки современных сайтов"
+      img = "techologies.gif"
+      description = "Здесь описаны технологии о которых мы слышали!"
+      name = "tech illustration"
 
   # Services section
   [params.services]
