@@ -6,6 +6,8 @@
      <h3 class="section-subheading text-muted">{{ with .Site.Params.technologies.subtitle }}{{ . | markdownify }}{{ end }}</h3>
 
      <div id = "tech-gif">
+     	    {{ $url := printf "img/tech/%s" $.Site.Params.technologies.img }}
+            <img src="{{ $url | absURL }}" alt="{{ .Site.Params.technologies.name }}">
      </div>
     <p>{{ with .Site.Params.technologies.description }}{{ . | markdownify }}{{ end }}</p>
   </div>
