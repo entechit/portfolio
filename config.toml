@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "http://entechit.com.ua/"
+baseurl = "http://localhost:1313/"
 languageCode = "en-us"
-title = "Web-studio EntechIT"
+title = "Agency"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -79,14 +79,6 @@ googleAnalytics = ""
     subtitle = "Трудимся для Вашего успеха"
     buttonText = "Узнать больше"
 
- # technologies section
-   [params.technologies]
-     enable = true
-     title = "Технологии"
-     subtitle = "Для разработки современных сайтов"
-     img = "techologies.gif"
-     description = "Здесь описаны технологии о которых мы слышали!"
-     name = "tech illustration"
 
   # Services section
   [params.services]
@@ -155,8 +147,8 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Почему мы?"
+    subtitle = "Нас рекомендуют друзьям"
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -164,27 +156,26 @@ googleAnalytics = ""
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      title = "Мы обеспечиваем"
+      description = "Cоздание сайта, который не устареет в ближайшие 3-5 лет. В этом нам помогают самые современные технологии и подходы, учитывающие актуальные тенденции сайтостроения."
+
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      title = "Ориентируемся на аудиторию"
+      description = "Разработка интернет-ресурсов начинается с анализа поведения и потребностей целевых пользователей. Учитывая эти факторы, мы прорабатываем юзабилити, создаем уникальные решения, работаем над дизайном и функциональными элементами сайтов."
 
     [[params.about.events]]
       img = "3.jpg"
       date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      title = "Помогаем Вашему бизнесу"
+      description = "Создание проектов ведется с целью получения максимальной коммерческой выгоды либо решения бизнес-задач, актуальных для заказчика. Вы получаете стабильно работающий инструмент для продаж, увеличения аудитории, обратной связи, рекламы или любых других целей."
 
     [[params.about.events]]
       img = "4.jpg"
       date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      title = "Мы трудимся с удовольствием"
+      description = "А это значит, что каждая разработка сайта ведется с уникальными подходами, без спешки и с акцентом на качество – так, как будто делается для себя."
 
 
   # Team section
@@ -200,8 +191,8 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
+      img = "SashaS.jpg"
+      name = "Александр"
       position = "Lead Designer"
       reportsTo = "CTO"
       livesIn = "[Munich, Germany](#some-maps-url)"
@@ -220,7 +211,7 @@ She worked at Pied Piper for years until they went belly up."""
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
+      img = "Ann_3.jpg"
       name = "Larry Parker"
       position = "Lead Marketer"
       social = [
@@ -230,7 +221,27 @@ She worked at Pied Piper for years until they went belly up."""
       ]
 
     [[params.team.members]]
-      img = "3.jpg"
+      img = "Oleg.jpg"
+      name = "Diana Pertersen"
+      position = "Lead Developer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+	  
+	  [[params.team.members]]
+      img = "Stas.jpg"
+      name = "Diana Pertersen"
+      position = "Lead Developer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+	  
+	  [[params.team.members]]
+      img = "Nataly.jpg"
       name = "Diana Pertersen"
       position = "Lead Developer"
       social = [
@@ -239,6 +250,15 @@ She worked at Pied Piper for years until they went belly up."""
         ["fa-linkedin", "#"]
       ]
 
+	  [[params.team.members]]
+      img = "SashaH.jpg"
+      name = "Diana Pertersen"
+      position = "Lead Developer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
   # Client section
     [params.clients_list]
       enable = true

@@ -576,6 +576,10 @@ section h3.section-subheading {
         margin: 0 0 30px;
     }
 }
+#about h4 {
+	font-family: ConstantiaBold;
+    color: #7a2c61;
+	}
 
 .timeline {
     position: relative;
@@ -813,7 +817,8 @@ section h3.section-subheading {
 }
 
  h4 {
-    font-size: 30px;
+    font-family: Arial;	
+	font-size: 30px;
     
 }
 
