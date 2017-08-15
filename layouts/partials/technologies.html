@@ -7,7 +7,7 @@
 
      <div id = "tech-gif">
      	    {{ $url := printf "img/tech/%s" $.Site.Params.technologies.img }}
-            <img src="{{ $url | absURL }}" alt="{{ .Site.Params.technologies.name }}">
+            <img src="{{ $url | absURL }}" alt="{{ .Site.Params.technologies.name }}" class="img-responsive">
      </div>
     <p>{{ with .Site.Params.technologies.description }}{{ . | markdownify }}{{ end }}</p>
   </div>

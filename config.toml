@@ -1,7 +1,8 @@
 # Site settings
 baseurl = "http://localhost:1313/"
+#baseurl = "http://entechit.com.ua/"
 languageCode = "en-us"
-title = "Agency"
+title = "EntechIT"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -65,10 +66,10 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
 
 
   # Hero section
@@ -79,6 +80,14 @@ googleAnalytics = ""
     subtitle = "Трудимся для Вашего успеха"
     buttonText = "Узнать больше"
 
+# technologies section
+    [params.technologies]
+      enable = true
+      title = "Технологии"
+      subtitle = "Для разработки современных сайтов"
+      img = "techologies.gif"
+      description = "Здесь описаны технологии о которых мы слышали!"
+      name = "tech illustration"
 
   # Services section
   [params.services]
