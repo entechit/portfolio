@@ -519,6 +519,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "config.toml",
+			"settings":
+			{
+				"buffer_size": 12120,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "layouts/partials/nav.html",
+			"settings":
+			{
+				"buffer_size": 3550,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "layouts/partials/hero.html",
+			"settings":
+			{
+				"buffer_size": 482,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/W/www/hugo_multilingual_template/dimension-master/layouts/index.html",
+			"settings":
+			{
+				"buffer_size": 1615,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -531,7 +563,10 @@
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 125.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -542,8 +577,17 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/W/www/portfolio",
+		"/W/www/portfolio/layouts",
+		"/W/www/portfolio/layouts/partials"
+	],
 	"file_history":
 	[
+		"/W/www/hugo_multilingual_template/dimension-master/layouts/partials/header.html",
+		"/W/www/hugo_multilingual_template/dimension-master/exampleSite/config.toml",
+		"/W/www/hugo_multilingual_template/dimension-master/theme.toml",
 		"/W/www/portfolio/static/css/agency.css",
 		"/W/www/portfolio/config.toml",
 		"/W/www/portfolio/layouts/index.html",
@@ -668,10 +712,7 @@
 		"/V/synchrowish.com/public/mail_patterns/15_Изменен емейл.html",
 		"/V/synchrowish.com/public/mail_patterns/5_Приглашение_НЕсуществующего.html",
 		"/V/synchrowish.com/public/mail_patterns/2_Новая хотелка.html",
-		"/V/synchrowish.com/public/mail_patterns/14_Вышел инвестор - копия.html",
-		"/V/synchrowish.com/public/mail_patterns/12_Новый инвестор - копия.html",
-		"/V/synchrowish.com/public/mail_patterns/9_Ответ в форуме.html",
-		"/V/synchrowish.com/public/mail_patterns/4_Приглашение_существующего.html"
+		"/V/synchrowish.com/public/mail_patterns/14_Вышел инвестор - копия.html"
 	],
 	"find":
 	{
@@ -891,8 +932,127 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "config.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								315,
+								315
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 694.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "layouts/partials/nav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "layouts/partials/hero.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								482,
+								482
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/W/www/hugo_multilingual_template/dimension-master/layouts/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								442,
+								442
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -927,10 +1087,15 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
 	"output.unsaved_changes":
 	{
 		"height": 148.0
 	},
+	"project": "portfolio.sublime-project",
 	"replace":
 	{
 		"height": 62.0
@@ -952,10 +1117,25 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 175.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

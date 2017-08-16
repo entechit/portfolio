@@ -1,14 +1,31 @@
 # Site settings
 baseurl = "http://localhost:1313/"
 #baseurl = "http://entechit.com.ua/"
-languageCode = "en-us"
+languageCode = "ru-ru"
 title = "EntechIT"
 theme = "hugo-agency-theme"
+DefaultContentLanguage = "ru"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
+[languages]
+[languages.ru]
+languageName = "Русский"
+weight = 1
+title = "EntechIT"
+description = ""
+
+
+[languages.en]
+languageName = "English"
+weight = 2
+title = "EntechIT"
+description = ""
+
 [params]
+
+
   # You can use Markdown syntax for urls [text](//url.to/source) or
   # most longer texts.
   #
@@ -43,42 +60,52 @@ googleAnalytics = ""
   #  domain = "www.example.com"
   #  # Optional integrity check hash
   #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
-
-  # Navigation
+  
   [params.navigation]
     brand = "Entech It"
-    # Optional logo as brand stored in img/
     logo = "Logo_16_08.png"
+
+  # Navigation
+  [ru.params.navigation]
+    # Optional logo as brand stored in img/
+    #logo = "Logo_16_08.png"
     services = "Услуги"
+    technologies = "Технологии"
     portfolio = "Портфолио"
     about = "О нас"
     team = "Команда"
     contact = "Контакты"
 
+[en.params.navigation]
+  #  brand = "Entech It"
+    # Optional logo as brand stored in img/
+   # logo = "Logo_16_08.png"
+    services = "Services"
+    technologies = "Tecnologies"
+    portfolio = "Portfolio"
+    about = "About us"
+    team = "Team"
+    contact = "Contact"
+
+
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
     # below and replace the values with your own.
 
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
-
-    # postpended links
-    #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
-
-
   # Hero section
-  [params.hero]
+   [ru.params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "WEB - СТУДИЯ ПРИВЕТСТВУЕТ!"
     subtitle = "Трудимся для Вашего успеха"
     buttonText = "Узнать больше"
+
+ [en.params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "WEB - STUDIO!"
+    subtitle = "We are working for your success"
+    buttonText = "Get more"
 
 # technologies section
     [params.technologies]
