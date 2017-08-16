@@ -192,8 +192,8 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Наша команда"
+    subtitle = "Давайте знакомиться"
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
@@ -201,18 +201,17 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "SashaS.jpg"
-      name = "Александр"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
+      name = "Александр Савиных"
+      position = "Руководитель проектов"
+      reportsTo = "и проектиков"
+      livesIn = "[Харьков, Украина](#some-maps-url)"
       scope = [
         "UX for [member dashboard](#)",
         "Maintainer for [awesome-project](#)",
         "Open Source [community management](#)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """Александр талантливый руководитель, отзывчивый друг и профессионал своего дела. Жизненный девиз: "Счастье в простых вещах..."""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -221,8 +220,13 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.team.members]]
       img = "Ann_3.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
+      name = "Анна Островерхова"
+      position = "Web-designer"
+	  scope = [
+        "Графические редакторы Photoshop, Illustrator и стремление создавать совершенные проекты",
+        "Знание современных подходов UI / UX ",
+      
+	   ]
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
