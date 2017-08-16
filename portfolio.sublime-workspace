@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin"
+			],
+			[
 				"marg",
 				"margin-bottom"
 			],
@@ -58,10 +62,6 @@
 			[
 				"padd",
 				"padding"
-			],
-			[
-				"mar",
-				"margin-left"
 			],
 			[
 				"t",
@@ -519,14 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "config.toml",
-			"settings":
-			{
-				"buffer_size": 11834,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -552,15 +544,18 @@
 	},
 	"file_history":
 	[
-		"/W/www/portfolio/.gitignore",
-		"/W/www/portfolio/layouts/partials/technologies.html",
-		"/W/www/portfolio/static/css/icomoon.css",
+		"/W/www/portfolio/static/css/agency.css",
 		"/W/www/portfolio/config.toml",
+		"/W/www/portfolio/layouts/index.html",
+		"/W/www/portfolio/layouts/partials/nav.html",
+		"/W/www/portfolio/layouts/partials/technologies.html",
+		"/W/www/portfolio/static/css/technologies.css",
+		"/W/www/portfolio/layouts/partials/portfolio.html",
+		"/W/www/portfolio/.gitignore",
+		"/C/Users/sava/AppData/Local/Temp/_tc/robots.txt",
+		"/W/www/portfolio/static/css/icomoon.css",
 		"/W/www/portfolio/layouts/partials/team.html",
 		"/W/www/portfolio/layouts/partials/head.html",
-		"/W/www/portfolio/layouts/partials/portfolio.html",
-		"/W/www/portfolio/layouts/index.html",
-		"/W/www/portfolio/static/css/technologies.css",
 		"/W/www/portfolio/public/css/technologies.css",
 		"/W/www/portfolio/data/projects/2014-07-06-project-2.yaml",
 		"/W/www/portfolio/data/projects/2014-07-07-project-3.yaml",
@@ -676,10 +671,7 @@
 		"/V/synchrowish.com/public/mail_patterns/14_Вышел инвестор - копия.html",
 		"/V/synchrowish.com/public/mail_patterns/12_Новый инвестор - копия.html",
 		"/V/synchrowish.com/public/mail_patterns/9_Ответ в форуме.html",
-		"/V/synchrowish.com/public/mail_patterns/4_Приглашение_существующего.html",
-		"/V/synchrowish.com/public/mail_patterns/16_Поздравляем новый пользователь соцсети.html",
-		"/V/synchrowish.com/public/css/friends.css",
-		"/T/Законодательство/ДПА - налоговая накладная/j1201009/J1201009.xsd"
+		"/V/synchrowish.com/public/mail_patterns/4_Приглашение_существующего.html"
 	],
 	"find":
 	{
@@ -699,6 +691,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"external",
+			"HEAD",
+			">>>>>",
+			"body",
+			"min-w",
+			"section",
+			"portfo",
+			"postpend",
+			"Menus.postpend",
+			".Site.Menus.postpend",
 			"gif",
 			"entech_pre.jpg",
 			"icon",
@@ -816,17 +818,7 @@
 			"trptsn",
 			"zmts",
 			"cntrn",
-			"from rpt.v_ranges",
-			"from rpt.user_params",
-			"from rpt.v_ranges",
-			"holidays",
-			"wish-delete-form",
-			"del",
-			"delete",
-			"wishes",
-			"search",
-			"#000",
-			"subheader-icon-menu"
+			"from rpt.v_ranges"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -899,37 +891,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "config.toml",
-					"settings":
-					{
-						"buffer_size": 11834,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2548,
-								2548
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1518.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

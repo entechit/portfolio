@@ -48,7 +48,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "Entech It"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
+    logo = "Logo_16_08.png"
     services = "Услуги"
     portfolio = "Портфолио"
     about = "О нас"
@@ -152,13 +152,12 @@ googleAnalytics = ""
       category = "Category"
       buttonText = "Close project"
 
-
     # About section
   [params.about]
     enable = true
     title = "Почему мы?"
     subtitle = "Нас рекомендуют друзьям"
-    endpoint = "Be part<br>of our<br>story!"
+    endpoint = "Мы еще <br> не все <br>рассказали!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -183,7 +182,7 @@ googleAnalytics = ""
     [[params.about.events]]
       img = "4.jpg"
       date = "July 2014"
-      title = "Мы трудимся с удовольствием"
+      title = "Мы работаем с удовольствием"
       description = "А это значит, что каждая разработка сайта ведется с уникальными подходами, без спешки и с акцентом на качество – так, как будто делается для себя."
 
 
@@ -272,39 +271,16 @@ googleAnalytics = ""
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
-  # Client section
-    [params.clients_list]
-      enable = true
-      # Possibility to center items
-      #center = true
-      # Optional client title specifying the involvement
-      #title = "Used and trusted by"
 
-      # All the clients' logos are stored under 'static/img/logos'.
-      # Replace them with your clients's logos.
-      # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
 
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
+    #title = "Contact us"
+    title = "Написать нам"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    #buttonText = "Send message"
+    buttonText = "Отправить сообщение"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -324,7 +300,7 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "entechit@ukr.net"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -332,20 +308,30 @@ googleAnalytics = ""
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
-      text = "Your Name *"
-      warning = "Please enter your name."
+      #text = "Your Name *"
+      #warning = "Please enter your name."
+      text = "Ваше имя *"
+      warning = "Введите Ваше имя."
+
 
     [params.contact.form.email]
-      text = "Your Email *"
-      warning = "Please enter your email address."
+      #text = "Your Email *"
+      #warning = "Please enter your email address."
+      text = "Ваш Email *"
+      warning = "Введите ваш email адрес."
+
 
     [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
+      #text = "Your Phone *"
+      #warning = "Please enter your phone number."
+      text = "Ваш телефон *"
+      warning = "Введите ваш номер телефона."
 
     [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
+      #text = "Your Message *"
+      #warning = "Please enter a message."
+      text = "Ваше сообщение *"
+      warning = "Введите ваше сообщение."
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
@@ -359,7 +345,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "Разработано студией EntechIT 2017"
 
     [[params.footer.social]]
       icon = "fa-twitter"
@@ -371,12 +357,4 @@ googleAnalytics = ""
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
       link = "#"
