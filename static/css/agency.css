@@ -107,6 +107,19 @@ src: url('../css/fonts/constanb.ttf') format('truetype');
 font-style: normal;
 }
 
+@font-face {
+
+font-family: 'ArialBlackdMy';
+
+src: url('../css/fonts/ariblk.ttf') format('truetype');
+
+font-weight: bold;
+
+font-style: normal;
+
+
+}
+
 .fa-3x {
     font-size: 2em !Important;
 }
@@ -483,7 +496,7 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
-	font-family: ConstantiaBold;
+	font-family: ArialBoldMy;
 }
 #services .col-md-4 {
 	height: 330px;
