@@ -9,9 +9,8 @@ theme = "hugo-agency-theme"
 googleAnalytics = ""
 
  # Link custom assets relative to /static
-  custom_css = []
-  custom_js  = []
-  favicon    = "favicon.ico"
+  
+  
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -29,7 +28,9 @@ googleAnalytics = ""
     weight = 1
     title = "EntechIT"
     description = "Метатег дескрипшен в русском языке"
- 
+    custom_css = ["css/icomoon.css","css/technologies.css"]
+    favicon    = "favicon.ico"
+
     # Hero section
     [Languages.ru.hero]
       # To change the background image of the hero, replace 'header-bg.jpg' in the 'static/img' folder.
@@ -49,8 +50,8 @@ googleAnalytics = ""
  
   # 404 error customization
   [Languages.ru.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    heading = "Страница не найдена"
+    text = "Перейдите пожалуйста на [this page](/)"
  
   # Navigation
   [Languages.ru.navigation]
@@ -132,8 +133,7 @@ googleAnalytics = ""
       title = "Техническая<br> поддержка"
       description = "Стабильная работа сайта, защищенность от атак и «падений», развитие для успешной оптимизации."
       url = "#"
-
-	   
+   
 
   # Portfolio section
   [Languages.ru.portfolio]
@@ -201,12 +201,11 @@ googleAnalytics = ""
       img = "SashaS.jpg"
       name = "Александр Савиных"
       position = "Руководитель проектов, PMP PMI"
-      reportsTo = "и проектиков"
-      livesIn = "[Харьков, Украина](#some-maps-url)"
+      reportsTo = ""
+      livesIn = "[Харьков, Украина](https://www.google.com.ua/maps/place/50.005950, 36.223004)"
       scope = [
         "Архитектурное проектирование систем(#)",
-        "HTML, CSS, PHP, JS, БД - проектирование",
-        
+        "HTML, CSS, PHP, JS, БД - проектирование"       
       ]
       # For bio markdown and even multiline strings are available.
       
@@ -264,7 +263,7 @@ googleAnalytics = ""
 	  [[Languages.ru.team.members]]
       img = "SashaH.jpg"
       name = "Александр Хорошилов"
-      position = "DBA, системны адмиинстратор"
+      position = "DBA, системный адмиинстратор"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -358,7 +357,7 @@ googleAnalytics = ""
     title = "EntechIT"
     description = "Metatag"
     name = "Your name"
-    custom_css = []
+    custom_css = ["css/icomoon.css","css/technologies.css"]
     custom_js  = []
     favicon    = "favicon.ico"
     disableFonts = false
@@ -409,7 +408,7 @@ googleAnalytics = ""
     [Languages.en.technologies]
       enable = true
       title = "Technologies"
-      subtitle = "whish we used in our works"
+      subtitle = "which we use in our works"
       img = "techologies.gif"
       description = "<b>CMS</b> : Wordpress, OpenCart, Drupal, OctoberCMS. <br> <b>RDBS</b> : MySql, Oracle / PLSQL, MSSQL / T-SQL."
       name = "tech illustration"
@@ -421,40 +420,39 @@ googleAnalytics = ""
     subtitle = "What we can do"
 
     [[Languages.en.services.row]]
-
     [[Languages.en.services.row.list]]
       icon = "icon-i_1r"
-      title = "Интернет<br> магазин"
+      title = "E-shop"
       description = "Рост продаж Ваших товаров в интернете благодаря продуманным интерфейсным решениям."
       url = "#"
 
     [[Languages.en.services.row.list]]
       icon = "icon-i_2r"
-      title = "Корпоративный<br> сайт"
+      title = "Corporate <br> site"
       description = "Создание имиджа компании для повышения конкурентоспособности Вашего бизнеса."
       url = "#"
 
     [[Languages.en.services.row.list]]
       icon = "icon-i_3r"
-      title = "Landing<br> Page"
+      title = "Landing<br> page"
       description = "Покупка в один клик! Разработаем яркий и эффективный дизайн для рекламы Вашего товара."
     url = "#"
     
     [[Languages.en.services.row.list]]
       icon = "icon-i_4r"
-      title = "Сайт<br> визитка"
+      title = "Business card <br> website"
       description = "Сайт  из 5-10 страниц. Заказывают специалисты: преподаватели, юристы, врачи и другие профессионалы."
     url = "#"
     
     [[Languages.en.services.row.list]]
       icon = "icon-i_5r"
-      title = "Web<br> системы"
+      title = "Web<br> applications"
       description = "Системы электронных платежей, корпоративных порталов, включающих документооборот, почту, календарь и множество других функций."
       url = "#"
     
     [[Languages.en.services.row.list]]
       icon = "icon-i_6r"
-      title = "Техническая<br> поддержка"
+      title = "Technical <br> support"
       description = "Стабильная работа сайта, защищенность от атак и «падений», развитие для успешной оптимизации."
       url = "#"
 
@@ -468,8 +466,8 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Портфолио"
-    subtitle = "Посмотрите наши работы"
+    title = "Portfolio"
+    subtitle = "read our works"
 
     [Languages.en.portfolio.modal]
       client = "Client"
@@ -516,7 +514,7 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Наша команда"
+    title = "Our team"
     subtitle = "Давайте знакомиться"
     description = "Наши приоритеты — ответственность, профессионализм, четкое выполнение <br> договорных обязанностей."
 
@@ -526,20 +524,18 @@ googleAnalytics = ""
     [[Languages.en.team.members]]
       img = "SashaS.jpg"
       name = "Aleksander Savinykh"
-      position = "PM, PMP PMI"
+      position = "Project manager (PMP PMI)"
       reportsTo = ""
-      livesIn = "[Kharkov, Ukraine](#some-maps-url)"
+      livesIn = "[Kharkov, Ukraine](https://www.google.com.ua/maps/place/50.005950, 36.223004)"
       scope = [
-        "Архитектурное проектирование систем(#)",
-        "PHP – разработка , CMS",
-        
+        "Project management, system architector",
+        "HTML, CSS, PHP, JS", 
+        "DB: Oracle, MSSQL / T-SQL, MySQL"        
       ]
       # For bio markdown and even multiline strings are available.
-      
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-facebook", "https://www.facebook.com/alexandr.savinykh.1"],
+        ["fa-linkedin", "https://www.linkedin.com/in/oleksandr-savinykh-pmp-88987853/"]
       ]
 
     [[Languages.en.team.members]]
@@ -548,11 +544,9 @@ googleAnalytics = ""
       position = "Web-designer"
     scope = [
         "Графические редакторы Photoshop, Illustrator и стремление создавать совершенные проекты",
-        "Знание современных подходов UI / UX ",
-      
+        "Знание современных подходов UI / UX "      
      ]
-     
-     
+          
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -561,8 +555,8 @@ googleAnalytics = ""
 
     [[Languages.en.team.members]]
       img = "Oleg.jpg"
-      name = "Oleg Yurchenko"
-      position = "business analyst"
+      name = "Oleg Iurchenko"
+      position = "Business analyst, PMP PMI"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -573,6 +567,7 @@ googleAnalytics = ""
       img = "Stas.jpg"
       name = "Stanislav Lukavenko"
       position = "Back-end developer"
+      scope = ["OOP, PHP, JS, HTML, CSS", "DB: Oracle / PL-SQL, MySQL"]
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -583,6 +578,7 @@ googleAnalytics = ""
       img = "Nataly.jpg"
       name = "Natalia Andreycheva"
       position = "Front-end developer"
+      scope = ["HTML, CSS, JS, OOP, PHP", "DB: Oracle / PL-SQL, MSSQL / T-SQL, MySQL"]
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -593,6 +589,7 @@ googleAnalytics = ""
       img = "SashaH.jpg"
       name = "Alexander Horoshilov"
       position = "DBA, system administrator"
+      scope = ["HTML, CSS, JS, OOP, PHP, DB"]
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -603,11 +600,9 @@ googleAnalytics = ""
   # Contact section
   [Languages.en.contact]
     enable = true
-    #title = "Contact us"
-    title = "Написать нам"
+    title = "Contact us"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    #buttonText = "Send message"
-    buttonText = "Отправить сообщение"
+    buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -656,7 +651,7 @@ googleAnalytics = ""
   # Footer section
   [Languages.en.footer]
     enable = true
-    copyright = "Разработано студией EntechIT 2017"
+    copyright = "Created by EntechIT 2017"
 
     [[Languages.en.footer.social]]
       icon = "fa-twitter"
