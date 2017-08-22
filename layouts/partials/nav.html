@@ -47,6 +47,12 @@
           </li>
         {{ end }}
 
+        {{ if .Site.Params.technologies.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#technol">{{ with .Site.Params.navigation.techno }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
         {{ if .Site.Params.about.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
@@ -65,6 +71,14 @@
           </li>
         {{ end }}
 
+        <!-- Multilanguage -->
+          <li>
+            {{ if .IsTranslated }}
+              {{ range $i, $e := .Translations }}
+                {{ if $i }}, {{ end }}<a class="page-scroll" href="{{ .Permalink }}">{{ $e.Language.LanguageName }}</a>
+              {{ end }}
+            {{ end }}
+          </li>
       </ul>
     </div>
     {{ "<!-- /.navbar-collapse -->" | safeHTML }}

@@ -8,20 +8,7 @@ theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
-[params]
-  # You can use Markdown syntax for urls [text](//url.to/source) or
-  # most longer texts.
-  #
-  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-  # for more icons. The icons are represented by their corresponding
-  # CSS class.
-
-  # To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
-  name = "Your name"
-  description = "Your description"
- 
-  # Link custom assets relative to /static
+ # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
   favicon    = "favicon.ico"
@@ -30,30 +17,51 @@ googleAnalytics = ""
   # Exception: Fontawesome
   disableFonts = false
 
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  # name = "Your name"
+  # description = "Your description"
+
+#**************************************** РУССКИЙ ***********************************************
+[Languages]
+  [Languages.ru]
+    languageName = "Русский"
+    weight = 1
+    title = "EntechIT"
+    description = "Метатег дескрипшен в русском языке"
+ 
+    # Hero section
+    [Languages.ru.hero]
+      # To change the background image of the hero, replace 'header-bg.jpg' in the 'static/img' folder.
+  
+      title = ""
+      subtitle = "Мы работаем для Вашего успеха с удовольствием"
+      buttonText = "Узнать больше"
+
+
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+ 
   # 404 error customization
-  [params.error404]
+  [Languages.ru.error404]
     heading = "Page couldn't be found"
     text = "Please visit [this page](/)"
-
-  # Optional piwik tracking
-  #[params.analytics.piwik]
-  #  URL = "https://stats.example.com"
-  #  ID = "42"
-  #  # Track all subdomains with "*.example.com"
-  #  domain = "www.example.com"
-  #  # Optional integrity check hash
-  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
-
+ 
   # Navigation
-  [params.navigation]
+  [Languages.ru.navigation]
     brand = "Entech It"
-    # Optional logo as brand stored in img/
     logo = "Logo_16_08.png"
     services = "Услуги"
     portfolio = "Портфолио"
+    techno = "Технологии"
     about = "О нас"
     team = "Команда"
-    contact = "Контакты"
+    contact = "Написать нам"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -72,74 +80,63 @@ googleAnalytics = ""
     #  weight = 10
 
 
-  # Hero section
-  [params.hero]
-    # To change the background image of the hero, replace 'header-bg.jpg' in
-    # the 'static/img' folder.
-    title = "WEB - СТУДИЯ ПРИВЕТСТВУЕТ!"
-    subtitle = "Трудимся для Вашего успеха"
-    buttonText = "Узнать больше"
-
 # technologies section
-    [params.technologies]
+    [Languages.ru.technologies]
       enable = true
       title = "Технологии"
       subtitle = "Для разработки современных сайтов"
       img = "techologies.gif"
       description = "Работаем с  <b>CMS</b> : Wordpress, OpenCart, Drupal, OctoberCMS. <br> Работаем с <b>базами данных</b> : MySql, Oracle / PLSQL, MSSQL  / T-SQL."
- 
-
       name = "tech illustration"
 
   # Services section
-  [params.services]
+  [Languages.ru.services]
     enable = true
     title = "Услуги"
     subtitle = "Что мы умеем делать"
 
-    [[params.services.row]]
+    [[Languages.ru.services.row]]
 
-    [[params.services.row.list]]
+    [[Languages.ru.services.row.list]]
       icon = "icon-i_1r"
       title = "Интернет<br> магазин"
       description = "Рост продаж Ваших товаров в интернете благодаря продуманным интерфейсным решениям."
       url = "#"
 
-    [[params.services.row.list]]
+    [[Languages.ru.services.row.list]]
       icon = "icon-i_2r"
       title = "Корпоративный<br> сайт"
       description = "Создание имиджа компании для повышения конкурентоспособности Вашего бизнеса."
       url = "#"
 
-    [[params.services.row.list]]
+    [[Languages.ru.services.row.list]]
       icon = "icon-i_3r"
       title = "Landing<br> Page"
       description = "Покупка в один клик! Разработаем яркий и эффективный дизайн для рекламы Вашего товара."
 	  url = "#"
 	  
-	  [[params.services.row.list]]
+	  [[Languages.ru.services.row.list]]
       icon = "icon-i_4r"
       title = "Сайт<br> визитка"
       description = "Сайт  из 5-10 страниц. Заказывают специалисты: преподаватели, юристы, врачи и другие профессионалы."
  	  url = "#"
 	  
-	  [[params.services.row.list]]
+	  [[Languages.ru.services.row.list]]
       icon = "icon-i_5r"
       title = "Web<br> системы"
       description = "Системы электронных платежей, корпоративных порталов, включающих документооборот, почту, календарь и множество других функций."
       url = "#"
 	  
-	  [[params.services.row.list]]
+	  [[Languages.ru.services.row.list]]
       icon = "icon-i_6r"
       title = "Техническая<br> поддержка"
       description = "Стабильная работа сайта, защищенность от атак и «падений», развитие для успешной оптимизации."
       url = "#"
 
-	  
-	  
+	   
 
   # Portfolio section
-  [params.portfolio]
+  [Languages.ru.portfolio]
     enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
@@ -148,14 +145,14 @@ googleAnalytics = ""
     title = "Портфолио"
     subtitle = "Посмотрите наши работы"
 
-    [params.portfolio.modal]
+    [Languages.ru.portfolio.modal]
       client = "Client"
       date = "Date"
       category = "Category"
       buttonText = "Close project"
 
     # About section
-  [params.about]
+  [Languages.ru.about]
     enable = true
     title = "Почему мы?"
     subtitle = "Нас рекомендуют друзьям"
@@ -164,24 +161,24 @@ googleAnalytics = ""
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
-    [[params.about.events]]
+    [[Languages.ru.about.events]]
       img = "1.jpg"
       title = "Мы обеспечиваем"
       description = "Cоздание сайта, который не устареет в ближайшие 3-5 лет. В этом нам помогают самые современные технологии и подходы, учитывающие актуальные тенденции сайтостроения."
 
 
-    [[params.about.events]]
+    [[Languages.ru.about.events]]
       img = "2.jpg"
       title = "Ориентируемся на аудиторию"
       description = "Разработка интернет-ресурсов начинается с анализа поведения и потребностей целевых пользователей. Учитывая эти факторы, мы прорабатываем юзабилити, создаем уникальные решения, работаем над дизайном и функциональными элементами сайтов."
 
-    [[params.about.events]]
+    [[Languages.ru.about.events]]
       img = "3.jpg"
       date = "December 2012"
       title = "Помогаем Вашему бизнесу"
       description = "Создание проектов ведется с целью получения максимальной коммерческой выгоды либо решения бизнес-задач, актуальных для заказчика. Вы получаете стабильно работающий инструмент для продаж, увеличения аудитории, обратной связи, рекламы или любых других целей."
 
-    [[params.about.events]]
+    [[Languages.ru.about.events]]
       img = "4.jpg"
       date = "July 2014"
       title = "Мы работаем с удовольствием"
@@ -189,7 +186,7 @@ googleAnalytics = ""
 
 
   # Team section
-  [params.team]
+  [Languages.ru.team]
     enable = true
     # Possibility to center items
     #center = true
@@ -200,12 +197,338 @@ googleAnalytics = ""
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.team.members]]
+    [[Languages.ru.team.members]]
       img = "SashaS.jpg"
       name = "Александр Савиных"
-      position = "Руководитель проектов"
+      position = "Руководитель проектов, PMP PMI"
       reportsTo = "и проектиков"
       livesIn = "[Харьков, Украина](#some-maps-url)"
+      scope = [
+        "Архитектурное проектирование систем(#)",
+        "HTML, CSS, PHP, JS, БД - проектирование",
+        
+      ]
+      # For bio markdown and even multiline strings are available.
+      
+      social = [
+        ["fa-facebook", "https://www.facebook.com/alexandr.savinykh.1"],
+        ["fa-linkedin", "https://www.linkedin.com/in/oleksandr-savinykh-pmp-88987853/"]
+      ]
+
+    [[Languages.ru.team.members]]
+      img = "Ann_3.jpg"
+      name = "Анна Островерхова"
+      position = "Web-дизайнер (проектов и проектиков)"
+	  scope = [
+        "Графические редакторы Photoshop, Illustrator и стремление создавать совершенные проекты",
+        "Знание современных подходов UI / UX ",
+	   ]
+	   
+	   
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[Languages.ru.team.members]]
+      img = "Oleg.jpg"
+      name = "Олег Юрченко"
+      position = "бизнес-аналитик"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+	  
+	  [[Languages.ru.team.members]]
+      img = "Stas.jpg"
+      name = "Станислав Лукавенко"
+      position = "Back-end разработчик"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+	  
+	  [[Languages.ru.team.members]]
+      img = "Nataly.jpg"
+      name = "Наталья Андрейчева"
+      position = "Front-end разработчик"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+	  [[Languages.ru.team.members]]
+      img = "SashaH.jpg"
+      name = "Александр Хорошилов"
+      position = "DBA, системны адмиинстратор"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+
+  # Contact section
+  [Languages.ru.contact]
+    enable = true
+    title = "Написать нам"
+    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    buttonText = "Отправить сообщение"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    email = "entechit@ukr.net"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    # 'warning' defines error messages for invalid inputs
+    [Languages.ru.contact.form.name]
+      text = "Ваше имя *"
+      warning = "Введите Ваше имя."
+
+
+    [Languages.ru.contact.form.email]
+      text = "Ваш Email *"
+      warning = "Введите ваш email адрес."
+
+
+    [Languages.ru.contact.form.phone]
+      text = "Ваш телефон *"
+      warning = "Введите ваш номер телефона."
+
+    [Languages.ru.contact.form.message]
+      text = "Ваше сообщение *"
+      warning = "Введите ваше сообщение."
+
+      # Add optional form fields to identify contact forms
+      #[[Languages.ru.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[Languages.ru.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [Languages.ru.footer]
+    enable = true
+    copyright = "Разработано студией EntechIT 2017"
+
+    [[Languages.ru.footer.social]]
+      icon = "fa-twitter"
+      link = "#"
+
+    [[Languages.ru.footer.social]]
+      icon = "fa-facebook"
+      link = "#"
+
+    [[Languages.ru.footer.social]]
+      icon = "fa-linkedin"
+      link = "#"
+
+
+
+      #****************************************** ENGLISH *********************************************
+
+  [Languages.en]
+    languageName = "English"
+    weight = 2
+    title = "EntechIT"
+    description = "Metatag"
+    name = "Your name"
+    custom_css = []
+    custom_js  = []
+    favicon    = "favicon.ico"
+    disableFonts = false
+
+ 
+    # Hero section
+    [Languages.en.hero]
+      # To change the background image of the hero, replace 'header-bg.jpg' in the 'static/img' folder.
+      title = ""
+      subtitle = "We work for your success with pleasure"
+      buttonText = "Get more"
+
+    [Languages.en.navigation]
+      brand = "Entech It"
+      logo = "Logo_16_08.png"
+      services = "Services"
+      portfolio = "Portfolio"
+      techno = "Technologies"
+      about = "About"
+      team = "Team"
+      contact = "Contact us"
+
+
+  # 404 error customization
+  [Languages.en.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+
+
+
+# technologies section
+    [Languages.en.technologies]
+      enable = true
+      title = "Technologies"
+      subtitle = "whish we used in our works"
+      img = "techologies.gif"
+      description = "<b>CMS</b> : Wordpress, OpenCart, Drupal, OctoberCMS. <br> <b>RDBS</b> : MySql, Oracle / PLSQL, MSSQL / T-SQL."
+      name = "tech illustration"
+
+  # Services section
+  [Languages.en.services]
+    enable = true
+    title = "Services"
+    subtitle = "What we can do"
+
+    [[Languages.en.services.row]]
+
+    [[Languages.en.services.row.list]]
+      icon = "icon-i_1r"
+      title = "Интернет<br> магазин"
+      description = "Рост продаж Ваших товаров в интернете благодаря продуманным интерфейсным решениям."
+      url = "#"
+
+    [[Languages.en.services.row.list]]
+      icon = "icon-i_2r"
+      title = "Корпоративный<br> сайт"
+      description = "Создание имиджа компании для повышения конкурентоспособности Вашего бизнеса."
+      url = "#"
+
+    [[Languages.en.services.row.list]]
+      icon = "icon-i_3r"
+      title = "Landing<br> Page"
+      description = "Покупка в один клик! Разработаем яркий и эффективный дизайн для рекламы Вашего товара."
+    url = "#"
+    
+    [[Languages.en.services.row.list]]
+      icon = "icon-i_4r"
+      title = "Сайт<br> визитка"
+      description = "Сайт  из 5-10 страниц. Заказывают специалисты: преподаватели, юристы, врачи и другие профессионалы."
+    url = "#"
+    
+    [[Languages.en.services.row.list]]
+      icon = "icon-i_5r"
+      title = "Web<br> системы"
+      description = "Системы электронных платежей, корпоративных порталов, включающих документооборот, почту, календарь и множество других функций."
+      url = "#"
+    
+    [[Languages.en.services.row.list]]
+      icon = "icon-i_6r"
+      title = "Техническая<br> поддержка"
+      description = "Стабильная работа сайта, защищенность от атак и «падений», развитие для успешной оптимизации."
+      url = "#"
+
+    
+    
+
+  # Portfolio section
+  [Languages.en.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Портфолио"
+    subtitle = "Посмотрите наши работы"
+
+    [Languages.en.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+    # About section
+  [Languages.en.about]
+    enable = true
+    title = "Почему мы?"
+    subtitle = "Нас рекомендуют друзьям"
+    endpoint = "Мы еще <br> не все <br>рассказали!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[Languages.en.about.events]]
+      img = "1.jpg"
+      title = "Мы обеспечиваем"
+      description = "Cоздание сайта, который не устареет в ближайшие 3-5 лет. В этом нам помогают самые современные технологии и подходы, учитывающие актуальные тенденции сайтостроения."
+
+
+    [[Languages.en.about.events]]
+      img = "2.jpg"
+      title = "Ориентируемся на аудиторию"
+      description = "Разработка интернет-ресурсов начинается с анализа поведения и потребностей целевых пользователей. Учитывая эти факторы, мы прорабатываем юзабилити, создаем уникальные решения, работаем над дизайном и функциональными элементами сайтов."
+
+    [[Languages.en.about.events]]
+      img = "3.jpg"
+      date = "December 2012"
+      title = "Помогаем Вашему бизнесу"
+      description = "Создание проектов ведется с целью получения максимальной коммерческой выгоды либо решения бизнес-задач, актуальных для заказчика. Вы получаете стабильно работающий инструмент для продаж, увеличения аудитории, обратной связи, рекламы или любых других целей."
+
+    [[Languages.en.about.events]]
+      img = "4.jpg"
+      date = "July 2014"
+      title = "Мы работаем с удовольствием"
+      description = "А это значит, что каждая разработка сайта ведется с уникальными подходами, без спешки и с акцентом на качество – так, как будто делается для себя."
+
+
+  # Team section
+  [Languages.en.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Наша команда"
+    subtitle = "Давайте знакомиться"
+    description = "Наши приоритеты — ответственность, профессионализм, четкое выполнение <br> договорных обязанностей."
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[Languages.en.team.members]]
+      img = "SashaS.jpg"
+      name = "Aleksander Savinykh"
+      position = "PM, PMP PMI"
+      reportsTo = ""
+      livesIn = "[Kharkov, Ukraine](#some-maps-url)"
       scope = [
         "Архитектурное проектирование систем(#)",
         "PHP – разработка , CMS",
@@ -219,57 +542,57 @@ googleAnalytics = ""
         ["fa-linkedin", "#"]
       ]
 
-    [[params.team.members]]
+    [[Languages.en.team.members]]
       img = "Ann_3.jpg"
-      name = "Анна Островерхова"
+      name = "Ann Ostroverhova"
       position = "Web-designer"
-	  scope = [
+    scope = [
         "Графические редакторы Photoshop, Illustrator и стремление создавать совершенные проекты",
         "Знание современных подходов UI / UX ",
       
-	   ]
-	   
-	   
+     ]
+     
+     
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
 
-    [[params.team.members]]
+    [[Languages.en.team.members]]
       img = "Oleg.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      name = "Oleg Yurchenko"
+      position = "business analyst"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
-	  
-	  [[params.team.members]]
+    
+    [[Languages.en.team.members]]
       img = "Stas.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      name = "Stanislav Lukavenko"
+      position = "Back-end developer"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
-	  
-	  [[params.team.members]]
+    
+    [[Languages.en.team.members]]
       img = "Nataly.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      name = "Natalia Andreycheva"
+      position = "Front-end developer"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
 
-	  [[params.team.members]]
+    [[Languages.en.team.members]]
       img = "SashaH.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      name = "Alexander Horoshilov"
+      position = "DBA, system administrator"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -278,7 +601,7 @@ googleAnalytics = ""
 
 
   # Contact section
-  [params.contact]
+  [Languages.en.contact]
     enable = true
     #title = "Contact us"
     title = "Написать нам"
@@ -311,54 +634,38 @@ googleAnalytics = ""
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
     # 'warning' defines error messages for invalid inputs
-    [params.contact.form.name]
-      #text = "Your Name *"
-      #warning = "Please enter your name."
-      text = "Ваше имя *"
-      warning = "Введите Ваше имя."
+    [Languages.en.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
 
 
-    [params.contact.form.email]
-      #text = "Your Email *"
-      #warning = "Please enter your email address."
-      text = "Ваш Email *"
-      warning = "Введите ваш email адрес."
+    [Languages.en.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
 
 
-    [params.contact.form.phone]
-      #text = "Your Phone *"
-      #warning = "Please enter your phone number."
-      text = "Ваш телефон *"
-      warning = "Введите ваш номер телефона."
+    [Languages.en.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
 
-    [params.contact.form.message]
-      #text = "Your Message *"
-      #warning = "Please enter a message."
-      text = "Ваше сообщение *"
-      warning = "Введите ваше сообщение."
+    [Languages.en.contact.form.message]
+      text = "Your Message *"
+      warning = "Please enter a message."
 
-      # Add optional form fields to identify contact forms
-      #[[params.contact.form.hidden]]
-      #  name = "someID"
-      #  value = "example.com"
-      #
-      #[[params.contact.form.hidden]]
-      # Special values for name such as "page" and "site" will be autofilled
-      #  name = "page"
 
   # Footer section
-  [params.footer]
+  [Languages.en.footer]
     enable = true
     copyright = "Разработано студией EntechIT 2017"
 
-    [[params.footer.social]]
+    [[Languages.en.footer.social]]
       icon = "fa-twitter"
       link = "#"
 
-    [[params.footer.social]]
+    [[Languages.en.footer.social]]
       icon = "fa-facebook"
       link = "#"
 
-    [[params.footer.social]]
+    [[Languages.en.footer.social]]
       icon = "fa-linkedin"
       link = "#"

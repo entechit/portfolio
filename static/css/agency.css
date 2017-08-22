@@ -405,7 +405,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    text-align: center;
+    text-align: left;
     color: #ffffda;
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
@@ -418,16 +418,14 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 380px;
 }
 
-header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
+header .intro-button {
+    text-align: center;
+    margin-bottom: 300px;
 }
 
 header .intro-text .intro-heading {
@@ -441,19 +439,9 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 250px;
-        padding-bottom: 200px;
+        /*padding-top: 250px;*/
+        /*padding-bottom: 200px;*/
     }
-
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-family: Server_r;
-        font-size: 70px;
-        font-style: normal;
-        line-height: 70px;
-		font-weight: bold;
-        text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
-}
     }
 
     header .intro-text .intro-heading {
@@ -462,7 +450,7 @@ header .intro-text .intro-heading {
         font-family: ConstantiaI;
         font-size: 30px;
         font-weight: normal;
-        line-height: 75px;
+        line-height: 50px;
 		color: #7a2c61;
     }
 }
