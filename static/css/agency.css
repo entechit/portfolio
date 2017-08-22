@@ -569,10 +569,10 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
-	font-family: ConstantiaBold;
+	font-family: ArialBoldMy;
     margin: 0;
     text-transform: none;
-	color: #7a2c61;
+	color: #333;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
@@ -592,7 +592,7 @@ section h3.section-subheading {
     }
 }
 #about h4 {
-	font-family: ConstantiaBold;
+	font-family: ArialBoldMy;
     color: #7a2c61;
 	}
 
