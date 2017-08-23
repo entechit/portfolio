@@ -9,8 +9,6 @@ theme = "hugo-agency-theme"
 googleAnalytics = ""
 
  # Link custom assets relative to /static
-  
-  
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -25,9 +23,10 @@ googleAnalytics = ""
 [Languages]
   [Languages.ru]
     languageName = "Русский"
-    weight = 1
+    weight = 2
     title = "EntechIT"
-    description = "Метатег дескрипшен в русском языке"
+    description = "Веб студия EntechIT, Украина приглашает к сотрудничеству заказчиков и посредников."
+    name = "EntechIT"
     custom_css = ["css/icomoon.css","css/technologies.css"]
     favicon    = "favicon.ico"
 
@@ -124,8 +123,8 @@ googleAnalytics = ""
 	  
 	  [[Languages.ru.services.row.list]]
       icon = "icon-i_5r"
-      title = "Web<br> системы"
-      description = "Системы электронных платежей, корпоративных порталов, включающих документооборот, почту, календарь и множество других функций."
+      title = "Web<br> приложения"
+      description = "Уникальные решения, решаюшие прикладные задачи бизнеса: порталы, учетные системы и пр."
       url = "#"
 	  
 	  [[Languages.ru.services.row.list]]
@@ -204,11 +203,10 @@ googleAnalytics = ""
       reportsTo = ""
       livesIn = "[Харьков, Украина](https://www.google.com.ua/maps/place/50.005950, 36.223004)"
       scope = [
-        "Архитектурное проектирование систем(#)",
-        "HTML, CSS, PHP, JS, БД - проектирование"       
+        "проектирование приложений, БД",
+        "HTML, CSS, PHP, JS"       
       ]
       # For bio markdown and even multiline strings are available.
-      
       social = [
         ["fa-facebook", "https://www.facebook.com/alexandr.savinykh.1"],
         ["fa-linkedin", "https://www.linkedin.com/in/oleksandr-savinykh-pmp-88987853/"]
@@ -222,8 +220,6 @@ googleAnalytics = ""
         "Графические редакторы Photoshop, Illustrator и стремление создавать совершенные проекты",
         "Знание современных подходов UI / UX ",
 	   ]
-	   
-	   
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -264,6 +260,7 @@ googleAnalytics = ""
       img = "SashaH.jpg"
       name = "Александр Хорошилов"
       position = "DBA, системный адмиинстратор"
+      scope = ["OS: MS, UX*","DB: Oracle, MSSQL, MYSQL, PostgreSQL"]
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -353,10 +350,10 @@ googleAnalytics = ""
 
   [Languages.en]
     languageName = "English"
-    weight = 2
+    weight = 1
     title = "EntechIT"
-    description = "Metatag"
-    name = "Your name"
+    description = "Web-studio EntechIT, Ukraine invites to cooperation customers and intermediaries"
+    name = "EntechIT"
     custom_css = ["css/icomoon.css","css/technologies.css"]
     custom_js  = []
     favicon    = "favicon.ico"
@@ -589,7 +586,7 @@ googleAnalytics = ""
       img = "SashaH.jpg"
       name = "Alexander Horoshilov"
       position = "DBA, system administrator"
-      scope = ["HTML, CSS, JS, OOP, PHP, DB"]
+      scope = ["OS: MS, UX*","DB: Oracle, MSSQL, MYSQL, PostgreSQL"]
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],

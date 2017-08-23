@@ -519,6 +519,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "config.toml",
+			"settings":
+			{
+				"buffer_size": 22083,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "layouts/partials/modals.html",
+			"settings":
+			{
+				"buffer_size": 1571,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "layouts/partials/nav.html",
+			"settings":
+			{
+				"buffer_size": 3335,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "layouts/partials/contact.html",
+			"settings":
+			{
+				"buffer_size": 4462,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "layouts/partials/head.html",
+			"settings":
+			{
+				"buffer_size": 2134,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "layouts/index.html",
+			"settings":
+			{
+				"buffer_size": 1774,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -531,7 +579,10 @@
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 125.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -542,24 +593,43 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/W/www/portfolio",
+		"/W/www/portfolio/layouts",
+		"/W/www/portfolio/layouts/partials"
+	],
 	"file_history":
 	[
-		"/W/www/portfolio/static/css/agency.css",
+		"/W/www/portfolio/layouts/partials/team.html",
+		"/C/src/hsp.cmd",
+		"/C/hs.cmd",
 		"/W/www/portfolio/config.toml",
+		"/W/www/portfolio/layouts/partials/hero.html",
 		"/W/www/portfolio/layouts/index.html",
 		"/W/www/portfolio/layouts/partials/nav.html",
+		"/W/www/portfolio/layouts/partials/contact.html",
+		"/W/www/portfolio/data/projects/2014-07-07-project-3.yaml",
+		"/W/www/portfolio/data/projects/2014-07-06-project-2.yaml",
+		"/W/www/portfolio/data/projects/2014-07-05-project-1.yaml",
+		"/W/www/portfolio/data/projects/2014-07-10-project-8.yaml",
+		"/W/www/portfolio/data/projects/2014-07-10-project-9.yaml",
+		"/W/www/portfolio/data/projects/2014-07-09-project-5.yaml",
+		"/W/www/portfolio/layouts/partials/head.html",
+		"/W/www/portfolio/layouts/partials/js.html",
+		"/W/www/portfolio/.gitignore",
+		"/W/www/hugo_multilingual_template/dimension-master/layouts/partials/footer.html",
+		"/W/www/hugo_multilingual_template/dimension-master/layouts/index.html",
+		"/W/www/hugo_multilingual_template/dimension-master/layouts/partials/header.html",
+		"/W/www/hugo_multilingual_template/dimension-master/theme.toml",
+		"/W/www/hugo_multilingual_template/dimension-master/exampleSite/config.toml",
+		"/W/www/portfolio/static/css/agency.css",
 		"/W/www/portfolio/layouts/partials/technologies.html",
 		"/W/www/portfolio/static/css/technologies.css",
 		"/W/www/portfolio/layouts/partials/portfolio.html",
-		"/W/www/portfolio/.gitignore",
 		"/C/Users/sava/AppData/Local/Temp/_tc/robots.txt",
 		"/W/www/portfolio/static/css/icomoon.css",
-		"/W/www/portfolio/layouts/partials/team.html",
-		"/W/www/portfolio/layouts/partials/head.html",
 		"/W/www/portfolio/public/css/technologies.css",
-		"/W/www/portfolio/data/projects/2014-07-06-project-2.yaml",
-		"/W/www/portfolio/data/projects/2014-07-07-project-3.yaml",
-		"/W/www/portfolio/layouts/partials/hero.html",
 		"/W/www/portfolio/layouts/partials/clients.html",
 		"/C/Users/sava/.gitconfig",
 		"/V/port/config.toml",
@@ -658,24 +728,11 @@
 		"/D/temp/2.html",
 		"/D/temp/1.html",
 		"/V/synchrowish.com/view/ban_friends_list_view.php",
-		"/V/synchrowish.com/core/config.php",
-		"/V/synchrowish.com/public/js/usermessage.js",
-		"/V/synchrowish.com/public/mail_patterns/17_Хотелка получена ГОТОВО.html",
-		"/V/synchrowish.com/controller/controller_forum.php",
-		"/V/synchrowish.com/public/js/calendar.js",
-		"/V/synchrowish.com/public/mail_patterns/10_Восстановление пароля.html",
-		"/V/synchrowish.com/public/mail_patterns/6_Поздравляем новый пользователь.html",
-		"/V/synchrowish.com/public/mail_patterns/15_Изменен емейл.html",
-		"/V/synchrowish.com/public/mail_patterns/5_Приглашение_НЕсуществующего.html",
-		"/V/synchrowish.com/public/mail_patterns/2_Новая хотелка.html",
-		"/V/synchrowish.com/public/mail_patterns/14_Вышел инвестор - копия.html",
-		"/V/synchrowish.com/public/mail_patterns/12_Новый инвестор - копия.html",
-		"/V/synchrowish.com/public/mail_patterns/9_Ответ в форуме.html",
-		"/V/synchrowish.com/public/mail_patterns/4_Приглашение_существующего.html"
+		"/V/synchrowish.com/core/config.php"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -691,6 +748,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"системы",
+			"Permalink",
+			"Perma",
+			"SashaH.jpg",
+			"contact",
 			"external",
 			"HEAD",
 			">>>>>",
@@ -813,12 +875,7 @@
 			"розет",
 			"v_goods",
 			"g_pagename",
-			"friend-data",
-			"btn",
-			"trptsn",
-			"zmts",
-			"cntrn",
-			"from rpt.v_ranges"
+			"friend-data"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -891,8 +948,189 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "config.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22083,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "layouts/partials/modals.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "layouts/partials/nav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2978,
+								2978
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "layouts/partials/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								454,
+								454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "layouts/partials/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "layouts/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -927,10 +1165,15 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
 	"output.unsaved_changes":
 	{
 		"height": 148.0
 	},
+	"project": "portfolio.sublime-project",
 	"replace":
 	{
 		"height": 62.0
@@ -952,10 +1195,25 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 175.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
