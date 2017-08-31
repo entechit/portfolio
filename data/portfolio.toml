@@ -1,0 +1,25 @@
+name = "portfolio"
+
+    [project.entecheco]
+        weight = 1
+        code = "entecheco"
+        img = "entecheco.png"
+        preview = "entecheco_pre.jpg"
+        link = "www.entecheco.com"
+        category = "corporative"
+
+    [project.tsm]
+        weight = 2
+        code = "tsm"
+        img = "tsm.png"
+        preview = "tsm_pre.jpg"
+        link = "#"
+        category = "corporative"
+
+    [project.xochuxa]
+        weight = 3
+        code = "xochuxa"
+        img = "xochuxa.png"
+        preview = "xochuxa_pre.jpg"
+        url = "xochuxa.com"
+        category = "web_application"

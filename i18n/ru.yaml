@@ -1,0 +1,6 @@
+- id: corporative
+  translation: "Корпоративный сайт"
+  other: "Портфолии"
+  
+- id: web_application
+  translation: "WEB-приложение"

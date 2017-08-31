@@ -509,6 +509,8 @@ section h3.section-subheading {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    
+    justify-content: center; 
 }
 .portfolio-item {
     width: 100%; 
