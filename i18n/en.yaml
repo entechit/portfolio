@@ -1,0 +1,18 @@
+- id: corporative
+  translation: "corporative site"
+  other: ""
+  
+- id: web_application
+  translation: "WEB-application"
+  
+- id: shop
+  translation: "shop"  
+
+- id: community
+  translation: "community site"  
+
+- id: forum
+  translation: "forum"  
+
+- id: blog
+  translation: "blog"    

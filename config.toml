@@ -115,19 +115,19 @@ googleAnalytics = ""
       description = "Покупка в один клик! Разработаем яркий и эффективный дизайн для рекламы Вашего товара."
 	  url = "#"
 	  
-	  [[Languages.ru.services.row.list]]
+    [[Languages.ru.services.row.list]]
       icon = "icon-i_4r"
       title = "Сайт<br> визитка"
       description = "Сайт  из 5-10 страниц. Заказывают специалисты: преподаватели, юристы, врачи и другие профессионалы."
  	  url = "#"
 	  
-	  [[Languages.ru.services.row.list]]
+    [[Languages.ru.services.row.list]]
       icon = "icon-i_5r"
       title = "Web<br> приложения"
       description = "Уникальные решения, решаюшие прикладные задачи бизнеса: порталы, учетные системы и пр."
       url = "#"
 	  
-	  [[Languages.ru.services.row.list]]
+    [[Languages.ru.services.row.list]]
       icon = "icon-i_6r"
       title = "Техническая<br> поддержка"
       description = "Стабильная работа сайта, защищенность от атак и «падений», развитие для успешной оптимизации."

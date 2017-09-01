@@ -8,7 +8,67 @@
       </div>
     </div>
     <div class="row">
+        {{ $data := .Site.Data }}
+        {{ $dataLang := index .Site.Data .Site.Language.Lang }}
+        <ul class="portfolio-list">
+            {{ range sort $data.portfolio.project "weight" }}
+                {{ $curCode := .code }}   
+                {{ $imgUrl := printf "img/portfolio/%s" .preview }}
+                {{ $category := .category }}  
+                
+                {{/* показываем только если к нему есть переводы в языковом файле */}}
+                {{ range $dataLang.portfolio.project }}
+                    {{ if eq .code $curCode }}
+                        <li class="portfolio-item">
+                            <div class="portfolio-item-inner">
+                                <a href="#portfolioModal{{ $curCode}}" class="portfolio-link" data-toggle="modal">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content">
+                                            <i class="fa fa-plus fa-3x"></i>
+                                        </div>
+                                    </div>
+                                    <img src="{{ $imgUrl | absURL }}" class="img-responsive" alt="">
+                                </a>
+                                <div class="portfolio-caption">
+                                    <h4>{{ .title | markdownify }}</h4>
 
+                                    <p class="portfolio-category text-muted">
+                                        {{ range $index, $value := $category }}
+                                            {{/* $cat := index . */}}
+                                            {{ if gt $index 0 }}, {{ end }}{{ T $value }}
+                                        {{ end }}
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+            
+        {{ if 0 }}
+            {{ range .Site.Data.projects }}
+                <li class="portfolio-item">
+                    <div class="portfolio-item-inner">
+                        <a href="#portfolioModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            {{ $url := printf "img/portfolio/%s" .preview }}
+                            <img src="{{ $url | absURL }}" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>{{ .title | markdownify }}</h4>
+                            <p class="text-muted">{{ .category | markdownify }}</p>
+                        </div>
+                    </div>
+                </li>
+            {{ end }}
+        {{ end }}
+        </ul>
+        
+{{ if 0 }}
       {{ range .Site.Data.projects }}
         <div class="col-md-4 col-sm-6 portfolio-item">
           <div class = "portfolio-wrapper">
@@ -28,6 +88,7 @@
         </div>
       </div>
       {{ end }}
+{{ end }}
 
     </div>
   </div>

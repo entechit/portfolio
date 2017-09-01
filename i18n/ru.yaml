@@ -1,0 +1,18 @@
+- id: corporative
+  translation: "корпоративный сайт"
+  other: ""
+  
+- id: web_application
+  translation: "WEB-приложение"
+  
+- id: shop
+  translation: "магазин"  
+
+- id: community
+  translation: "сайт сообщества"
+
+- id: forum
+  translation: "форум"  
+
+- id: blog
+  translation: "блог"     

@@ -1,0 +1,46 @@
+name = "portfolio_lang"
+
+    [project.entecheco]
+        code = "entecheco"
+        title = "Сайт IT-компании ЭнТехЭко"
+        description = "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+
+    [project.tsm]
+        code = "tsm"
+        title = "Сайт группы производственных компаний"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, ducimus..."
+
+    [project.xochuxa]
+        code = "xochuxa"
+        title = "Социальный стартап Хочуха"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
+
+    [project.ttmaximum]
+        code = "ttmaximum"
+        title = "Магазин спорт-инвентаря"
+        description = '''tt-maximum - компания, которая продает инвентарь и сопутствующие товары для настольного тенниса и зальных видов спорта.  
+Изначальная идея - создать сайт, который бы отвечал нескольким целям:  
+
+- позволил занять лидирующие позиции по продаже инвентаря по Украине  
+- мог служить базой знаний по данной спортивной дисциплине,  
+- осуществлял информационную поддержку спортивных мероприятий  
+- помогал спортсменам и любителям общаться между собой  
+
+В результате сайт включает в себя несколько разделов:  
+
+ - магазин для продажи инвентаря  
+ - блоги и статьи на тему настольного тенниса  
+ - всеукраинский каталог турниров  
+ - каталог теннисных клубов и залов  
+ - форум для общения  
+
+Все разделы объединены единой системой авторизации пользователей.
+'''
+        tech_desc = """сайт реализован на собственной CMS (системе управления содержимым)  
+все разделы интергрированы с форумом SMF  
+использованные технологии: PHP+MySQL, CSS3, JQuery
+"""
+        work = """дизайн  
+программирование  
+верстка  
+"""
