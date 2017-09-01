@@ -138,7 +138,7 @@ body {
     color: #cf4f79;
 }
 
-p {
+p,li {
     font-size: 16px;
     line-height: 1.75;
 }
@@ -587,6 +587,13 @@ section h3.section-subheading {
     font-family: ConstantiaI;
     font-size: 20px;
     font-style: italic;
+}
+.portfolio-category {
+    line-height: 1.2;
+    margin-top: 0.4em !important;
+}
+.portfolio-description {
+    text-align: left;
 }
 
 @media screen and ( min-width: 568px )
@@ -1145,9 +1152,9 @@ ul.social-buttons li a:active {
     font-size: 3em;
 }
 
-.portfolio-modal .modal-content p {
+/*.portfolio-modal .modal-content p {
     margin-bottom: 30px;
-}
+}*/
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;

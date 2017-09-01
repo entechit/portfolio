@@ -12,30 +12,37 @@
         {{ $dataLang := index .Site.Data .Site.Language.Lang }}
         <ul class="portfolio-list">
             {{ range sort $data.portfolio.project "weight" }}
-                <li class="portfolio-item">
-                    <div class="portfolio-item-inner">
-                        <a href="#portfolioModal{{ .code }}" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
+                {{ $curCode := .code }}   
+                {{ $imgUrl := printf "img/portfolio/%s" .preview }}
+                {{ $category := .category }}  
+                
+                {{/* показываем только если к нему есть переводы в языковом файле */}}
+                {{ range $dataLang.portfolio.project }}
+                    {{ if eq .code $curCode }}
+                        <li class="portfolio-item">
+                            <div class="portfolio-item-inner">
+                                <a href="#portfolioModal{{ $curCode}}" class="portfolio-link" data-toggle="modal">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content">
+                                            <i class="fa fa-plus fa-3x"></i>
+                                        </div>
+                                    </div>
+                                    <img src="{{ $imgUrl | absURL }}" class="img-responsive" alt="">
+                                </a>
+                                <div class="portfolio-caption">
+                                    <h4>{{ .title | markdownify }}</h4>
+
+                                    <p class="portfolio-category text-muted">
+                                        {{ range $index, $value := $category }}
+                                            {{/* $cat := index . */}}
+                                            {{ if gt $index 0 }}, {{ end }}{{ T $value }}
+                                        {{ end }}
+                                    </p>
                                 </div>
                             </div>
-                            {{ $url := printf "img/portfolio/%s" .preview }}
-                            <img src="{{ $url | absURL }}" class="img-responsive" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            {{ $curCode := .code }}   
-                           
-                            {{ range $dataLang.portfolio.project }}
-                                {{ if eq .code $curCode }}
-                                    <h4>{{ .title | markdownify }}</h4>
-                                {{ end }}
-                            {{ end }}
-                            <!--<h4>{{/* .title | markdownify */}}</h4>-->
-                            <p class="text-muted">{{/* T .category */}}</p>
-                        </div>
-                    </div>
-                </li>
+                        </li>
+                    {{ end }}
+                {{ end }}
             {{ end }}
             
         {{ if 0 }}
