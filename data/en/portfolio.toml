@@ -2,23 +2,23 @@ name = "portfolio_lang"
 
     [project.entecheco]
         code = "entecheco"
-        title = "Entecheco company"
+        title = "IT-company"
         subtitle = "sdfdf"
         description = "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
 
     [project.tsm]
         code = "tsm"
-        title = "Сайт группы производственных компаний"
+        title = "Enterprise group"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, ducimus..."
 
     [project.xochuxa]
         code = "xochuxa"
-        title = "Social startup Hochuha"
+        title = "Social startup Xochuxa"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
 
     [project.ttmaximum]
         code = "ttmaximum"
-        title = "Магазин спорт-инвентаря"
+        title = "Sport equipment shop"
         description = """tt-maximum - компания, которая продает инвентарь и сопутствующие товары для настольного тенниса и зальных видов спорта.
 Изначальная идея - создать сайт, который бы отвечал нескольким целям:
  - позволил занять лидирующие позиции по продаже инвентаря по Украине
@@ -42,3 +42,31 @@ name = "portfolio_lang"
 программирование  
 верстка  
 """
+
+ [project.zelentsov]
+        code = "zelentsov"
+        title = "Адвокатское объединение"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
+
+
+[project.galislava]
+        code = "galislava"
+        title = "Магазин одежды"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
+
+
+   [project.automaster]
+        code = "automaster"
+        title = "Планирование работ СТО"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
+
+
+    [project.tahir]
+        code = "tahir"
+        title = "Строительная компания"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
+
+[project.multijob]
+        code = "multijob"
+        title = "Белиберда-белибердень"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."

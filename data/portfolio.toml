@@ -3,11 +3,11 @@ name = "portfolio"
     [project.entecheco]
         weight = 1
         code = "entecheco"
-        img = "entecheco_pre.jpg"
+        img = "entecheco1_pre.jpg"
         preview = "entecheco_pre.jpg"
         link = "www.entecheco.com"
         category = ["corporative"]
-        tech = "HTML5, jQuery"
+        tech = "WordPress, HTML5, JS"
 
     [project.tsm]
         weight = 2
@@ -16,7 +16,7 @@ name = "portfolio"
         preview = "tsm_pre.jpg"
         link = "#"
         category = ["corporative"]
-        tech = "HTML5, jQuery"
+        tech = "WordPress, HTML5, JS"
 
     [project.xochuxa]
         weight = 3
@@ -35,3 +35,51 @@ name = "portfolio"
         link = "tt-maximum.com"
         category = ["shop","community","forum","blog"]
         tech = "PHP, MySQL, jQuery, HTML5"
+
+
+    [project.zelentsov]
+        weight = 5
+        code = "zelentsov"
+        img = "zelentsov_pre.jpg"
+        preview = "zelentsov_pre.jpg"
+        link = "zelentsov.org"
+        category = ["community","forum","blog"]
+        tech = "PHP, MySQL, jQuery, HTML5"
+
+    [project.galislava]
+        weight = 6
+        code = "galislava"
+        img = "galislava_pre.jpg"
+        preview = "galislava_pre.jpg"
+        link = "http://galislava.com"
+        category = ["shop","community","forum","blog"]
+        tech = "PHP, MySQL, jQuery, HTML5"
+
+    [project.automaster]
+        weight = 7
+        code = "automaster"
+        img = "automaster_pre.jpg"
+        preview = "automaster_pre.jpg"
+        link = "#"
+        category = ["shop","corporative","blog", ""]
+        tech = "PHP, MySQL, jQuery, HTML5"        
+
+
+    [project.tahir]
+        weight = 8
+        code = "tahir"
+        img = "tahir_pre.jpg"
+        preview = "tahir_pre.jpg"
+        link = "bestroof.kh.ua"
+        category = ["visit card"]
+        tech = "PHP, MySQL, jQuery, HTML5"        
+
+
+  [project.multijob]
+        weight = 9
+        code = "multijob"
+        img = "multijob_pre.jpg"
+        preview = "multijob_pre.jpg"
+        link = "multijob.eu"
+        category = ["blog, forum"]
+        tech = "PHP, MySQL, jQuery, HTML5"        

@@ -196,93 +196,47 @@ googleAnalytics = ""
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+
+
     [[Languages.ru.team.members]]
       img = "SashaS.jpg"
-      name = "Александр Савиных"
+      name = "Александр"
       position = "Руководитель проектов, PMP PMI"
       reportsTo = ""
       livesIn = "[Харьков, Украина](https://www.google.com.ua/maps/place/50.005950, 36.223004)"
-      scope = [
-        "проектирование приложений, БД",
-        "HTML, CSS, PHP, JS"       
-      ]
-      # For bio markdown and even multiline strings are available.
-      social = [
-        ["fa-facebook", "https://www.facebook.com/alexandr.savinykh.1"],
-        ["fa-linkedin", "https://www.linkedin.com/in/oleksandr-savinykh-pmp-88987853/"]
-      ]
 
   
     [[Languages.ru.team.members]]
       img = "Ann_3.jpg"
-      name = "Анна Островерхова"
-      position = "Web-дизайнер (проектов и проектиков)"
-	  scope = [
-        "Графические редакторы Photoshop, Illustrator и стремление создавать совершенные проекты",
-        "Знание современных подходов UI / UX ",
-	   ]
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+      name = "Анна"
+      position = "Web-дизайнер"
 
   [[Languages.ru.team.members]]
       img = "Alex2.jpg"
-      name = "Алексей Салихов"
+      name = "Алексей"
       position = "Ведущий разработчик"
-    scope = [
-        "Знает практически все (80 level)",
-        "Знает практически все (80 level)"
-     ]
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
 
 
     [[Languages.ru.team.members]]
       img = "Oleg.jpg"
-      name = "Олег Юрченко"
+      name = "Олег"
       position = "Бизнес-аналитик"
-       scope = [
-        "Анализ бизнес-процессов", "Управление требованиями", "Разработка прототипа", "Управление рисками"
-     ]
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
 	  
 	  [[Languages.ru.team.members]]
       img = "Stas.jpg"
-      name = "Станислав Лукавенко"
+      name = "Станислав"
       position = "Back-end разработчик"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
 	  
 	  [[Languages.ru.team.members]]
       img = "Nataly.jpg"
-      name = "Наталья Андрейчева"
+      name = "Наталья"
       position = "Front-end разработчик"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+
 
 	  [[Languages.ru.team.members]]
       img = "SashaH.jpg"
-      name = "Александр Хорошилов"
+      name = "Александр"
       position = "DBA, системный адмиинстратор"
-      scope = ["OS: MS, UX*","DB: Oracle, MSSQL, MYSQL"]
-      social = [
-        ["fa-linkedin", """https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80-%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B8%D0%BB%D0%BE%D0%B2-b5363187/"""]
-      ]
 
 
   # Contact section
@@ -535,97 +489,48 @@ googleAnalytics = ""
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+
+  
     [[Languages.en.team.members]]
       img = "SashaS.jpg"
-      name = "Aleksander Savinykh"
+      name = "Alexander"
       position = "Project manager (PMP PMI)"
       reportsTo = ""
       livesIn = "[Kharkov, Ukraine](https://www.google.com.ua/maps/place/50.005950, 36.223004)"
-      scope = [
-        "Project management, system architector",
-        "HTML, CSS, PHP, JS", 
-        "DB: Oracle, MSSQL / T-SQL, MySQL"        
-      ]
-      # For bio markdown and even multiline strings are available.
-      social = [
-        ["fa-facebook", "https://www.facebook.com/alexandr.savinykh.1"],
-        ["fa-linkedin", "https://www.linkedin.com/in/oleksandr-savinykh-pmp-88987853/"]
-      ]
+    
 
     [[Languages.en.team.members]]
       img = "Ann_3.jpg"
-      name = "Ann Ostroverhova"
+      name = "Ann"
       position = "Web-designer"
-    scope = [
-        "Графические редакторы Photoshop, Illustrator и стремление создавать совершенные проекты",
-        "Знание современных подходов UI / UX "      
-     ]
-          
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+
 
   [[Languages.en.team.members]]
       img = "Alex2.jpg"
-      name = "Alexey Salikhov"
+      name = "Alexey"
       position = "Lead developer"
-    scope = [
-        "Знает практически все (80 level)",
-        "Знает практически все (80 level)"
-     ]
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
 
 
     [[Languages.en.team.members]]
       img = "Oleg.jpg"
-      name = "Oleg Iurchenko"
+      name = "Oleg"
       position = "Business Analyst"
-       scope = [
-        "Analyzing business processes","Requirement management","Prototype development", "Risk management"
-     ]
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
     
     [[Languages.en.team.members]]
       img = "Stas.jpg"
-      name = "Stanislav Lukavenko"
+      name = "Stanislav"
       position = "Back-end developer"
-      scope = ["OOP, PHP, JS, HTML, CSS", "DB: Oracle / PL-SQL, MySQL"]
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
     
     [[Languages.en.team.members]]
       img = "Nataly.jpg"
-      name = "Natalia Andreycheva"
+      name = "Natalia"
       position = "Front-end developer"
-      scope = ["HTML, CSS, JS, OOP, PHP", "DB: Oracle / PL-SQL, MSSQL / T-SQL, MySQL"]
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+      
 
     [[Languages.en.team.members]]
       img = "SashaH.jpg"
-      name = "Alexander Horoshilov"
+      name = "Alexander"
       position = "DBA, system administrator"
-      scope = ["OS: MS, UX*","DB: Oracle, MSSQL, MYSQL"]
-      social = [
-        ["fa-linkedin", """https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80-%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B8%D0%BB%D0%BE%D0%B2-b5363187/"""]
-      ]
-
 
 
   # Contact section

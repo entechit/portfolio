@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
 				"mar",
 				"margin"
 			],
@@ -242,10 +250,6 @@
 			[
 				"background-",
 				"background-image"
-			],
-			[
-				"margi",
-				"margin-top"
 			],
 			[
 				"border-c",
@@ -510,60 +514,48 @@
 			[
 				"ses",
 				"session_start"
-			],
-			[
-				"is_",
-				"is_bool"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "data/portfolio.toml",
+			"settings":
+			{
+				"buffer_size": 2328,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/ru/portfolio.toml",
+			"settings":
+			{
+				"buffer_size": 2914,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/en/portfolio.toml",
+			"settings":
+			{
+				"buffer_size": 2904,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "config.toml",
 			"settings":
 			{
-				"buffer_size": 22083,
+				"buffer_size": 19644,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "layouts/partials/modals.html",
+			"file": "data/projects/2014-07-10-project-8.yaml",
 			"settings":
 			{
-				"buffer_size": 1571,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "layouts/partials/nav.html",
-			"settings":
-			{
-				"buffer_size": 3335,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "layouts/partials/contact.html",
-			"settings":
-			{
-				"buffer_size": 4462,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "layouts/partials/head.html",
-			"settings":
-			{
-				"buffer_size": 2134,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "layouts/index.html",
-			"settings":
-			{
-				"buffer_size": 1774,
+				"buffer_size": 626,
 				"line_ending": "Windows"
 			}
 		}
@@ -579,10 +571,7 @@
 	},
 	"console":
 	{
-		"height": 125.0,
-		"history":
-		[
-		]
+		"height": 226.0
 	},
 	"distraction_free":
 	{
@@ -593,42 +582,58 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/W/www/portfolio",
-		"/W/www/portfolio/layouts",
-		"/W/www/portfolio/layouts/partials"
-	],
 	"file_history":
 	[
-		"/W/www/portfolio/layouts/partials/team.html",
-		"/C/src/hsp.cmd",
-		"/C/hs.cmd",
+		"/W/www/portfolio/data/projects/2014-07-10-project-6.yaml",
+		"/W/www/portfolio/data/projects/2014-07-10-project-7.yaml",
+		"/W/www/portfolio/data/projects/2014-07-05-project-1.yaml",
+		"/W/www/portfolio/data/projects/2014-07-06-project-2.yaml",
+		"/W/www/portfolio/data/projects/2014-07-07-project-3.yaml",
+		"/W/www/portfolio/data/projects/2014-07-08-project-4.yaml",
+		"/W/www/portfolio/data/projects/2014-07-09-project-5.yaml",
+		"/W/www/portfolio/data/projects/2014-07-10-project-8.yaml",
+		"/W/www/portfolio/static/css/agency.css",
 		"/W/www/portfolio/config.toml",
+		"/W/www/portfolio/portfolio/layouts/partials/portfolio.html",
+		"/W/www/portfolio/portfolio/data/portfolio.toml",
+		"/W/www/portfolio/portfolio/data/en/portfolio.toml",
+		"/W/www/portfolio/portfolio/data/projects/2014-07-05-project-1.yaml",
+		"/W/www/portfolio/portfolio/i18n/en.yaml",
+		"/W/www/portfolio/portfolio/i18n/ru.yaml",
+		"/C/Users/sava/Downloads/xochuxa.com.access.log",
+		"/D/temp/attach.txt",
+		"/V/synchrowish.com/controller/controller_faq.php",
+		"/V/synchrowish.com/core/route.php",
+		"/V/synchrowish.com/view/faq_view.php",
+		"/V/synchrowish.com/view/terms_view.php",
+		"/W/www/portfolio/layouts/partials/head.html",
 		"/W/www/portfolio/layouts/partials/hero.html",
 		"/W/www/portfolio/layouts/index.html",
 		"/W/www/portfolio/layouts/partials/nav.html",
-		"/W/www/portfolio/layouts/partials/contact.html",
-		"/W/www/portfolio/data/projects/2014-07-07-project-3.yaml",
-		"/W/www/portfolio/data/projects/2014-07-06-project-2.yaml",
-		"/W/www/portfolio/data/projects/2014-07-05-project-1.yaml",
-		"/W/www/portfolio/data/projects/2014-07-10-project-8.yaml",
-		"/W/www/portfolio/data/projects/2014-07-10-project-9.yaml",
-		"/W/www/portfolio/data/projects/2014-07-09-project-5.yaml",
-		"/W/www/portfolio/layouts/partials/head.html",
-		"/W/www/portfolio/layouts/partials/js.html",
-		"/W/www/portfolio/.gitignore",
-		"/W/www/hugo_multilingual_template/dimension-master/layouts/partials/footer.html",
-		"/W/www/hugo_multilingual_template/dimension-master/layouts/index.html",
-		"/W/www/hugo_multilingual_template/dimension-master/layouts/partials/header.html",
-		"/W/www/hugo_multilingual_template/dimension-master/theme.toml",
-		"/W/www/hugo_multilingual_template/dimension-master/exampleSite/config.toml",
-		"/W/www/portfolio/static/css/agency.css",
+		"/V/synchrowish.com/view/usersettings_view.php",
+		"/V/synchrowish.com/view/footer.php",
+		"/W/www/port/nav.html",
+		"/W/www/port/config.toml",
+		"/C/Users/sava/AppData/Local/Temp/bat/initTRPTES.ora",
+		"/C/Users/sava/AppData/Local/Temp/bat/Письмо.html",
+		"/D/temp/alert_ZMTESN_21072017.log",
+		"/C/Users/sava/AppData/Local/Temp/_tc/crossdomain.xml",
+		"/T/Порядки/_Как настроить сервер_/Как настроить сервер.txt",
+		"/W/www/docuapi-master/exampleSite/config.toml",
+		"/W/www/docuapi-master/theme.toml",
 		"/W/www/portfolio/layouts/partials/technologies.html",
+		"/W/www/portfolio/layouts/partials/footer.html",
+		"/W/www/portfolio/layouts/partials/about.html",
 		"/W/www/portfolio/static/css/technologies.css",
+		"/W/www/portfolio/layouts/partials/contact.html",
+		"/C/Users/sava/AppData/Local/Temp/_tc_/crossdomain.xml",
+		"/W/www/anim/index.html",
+		"/W/www/anim/main.css",
 		"/W/www/portfolio/layouts/partials/portfolio.html",
+		"/W/www/portfolio/.gitignore",
 		"/C/Users/sava/AppData/Local/Temp/_tc/robots.txt",
 		"/W/www/portfolio/static/css/icomoon.css",
+		"/W/www/portfolio/layouts/partials/team.html",
 		"/W/www/portfolio/public/css/technologies.css",
 		"/W/www/portfolio/layouts/partials/clients.html",
 		"/C/Users/sava/.gitconfig",
@@ -641,7 +646,6 @@
 		"/V/port/layouts/partials/services.html",
 		"/V/synchrowish.com/log/error.log",
 		"/C/Users/sava/AppData/Local/Temp/_tc/welcome_view.php",
-		"/V/synchrowish.com/core/route.php",
 		"/V/synchrowish.com/public/tmp_upd_disk_img.php",
 		"/V/synchrowish.com/model/getimage.php",
 		"/V/synchrowish.com/model/model_img.php",
@@ -675,12 +679,10 @@
 		"/V/synchrowish.com/model/model_userinfo.php",
 		"/V/synchrowish.com/view/header.php",
 		"/V/synchrowish.com/model/model_usersettings.php",
-		"/V/synchrowish.com/view/usersettings_view.php",
 		"/V/synchrowish.com/model/model_friendsgifts.php",
 		"/V/synchrowish.com/view/img_view.php",
 		"/V/synchrowish.com/userimg/goods/6/184.jpg",
 		"/V/synchrowish.com/public/js/img_edit.js",
-		"/D/temp/attach.txt",
 		"/V/synchrowish.com/model/model_wishes.php",
 		"/D/temp/165.jpg",
 		"/V/synchrowish.com/public/phpinfo.php",
@@ -709,30 +711,11 @@
 		"/V/synchrowish.com/log/xochuxa.com.access.log",
 		"/V/synchrowish.com/log/xochuxa.com.access.log.0",
 		"/V/synchrowish.com/view/friendgift_view.php",
-		"/C/Users/sava/AppData/Local/Temp/bat/snp3_18418.trc",
-		"/V/synchrowish.com/model/model_wishers.php",
-		"/V/synchrowish.com/model/model_twitter_auth.php",
-		"/V/synchrowish.com/model/model_report.php",
-		"/V/synchrowish.com/model/model_instagram_auth.php",
-		"/D/scrit.txt",
-		"/V/synchrowish.com/model/model_facebook_auth.php",
-		"/V/synchrowish.com/model/instagram.class.php",
-		"/V/synchrowish.com/model/grid_filter.php",
-		"/V/synchrowish.com/model/grid.php",
-		"/V/synchrowish.com/controller/controller_friendsgifts.php",
-		"/V/synchrowish.com/view/friendsgifts_view.php",
-		"/V/synchrowish.com/view/terms_view.php",
-		"/V/synchrowish.com/view/friend_header_view.php",
-		"/V/synchrowish.com/public/js/scroll_loading.js",
-		"/T/SCRIPT_SRV/MX_TESTINVUSE_PC_9694592.1500040269218171403.xml",
-		"/D/temp/2.html",
-		"/D/temp/1.html",
-		"/V/synchrowish.com/view/ban_friends_list_view.php",
-		"/V/synchrowish.com/core/config.php"
+		"/C/Users/sava/AppData/Local/Temp/bat/snp3_18418.trc"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -748,11 +731,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"системы",
-			"Permalink",
-			"Perma",
-			"SashaH.jpg",
-			"contact",
+			"port",
+			"media",
+			"193.24.30",
+			"193.24.30.166",
+			"b>",
+			"h4>",
+			"h3>",
+			"intro-lead-in",
+			"intro",
+			"logo ",
+			"Languages.en.navigation",
+			"[Languages.ru.",
+			"[params.",
+			"terms",
+			"ora-",
+			"ora",
+			"ora-",
+			"ПРВЕТСТВУЕТ",
+			"ora-",
+			"params.navigation",
+			"footer",
+			"endpoint",
+			"clients",
+			"header .intro-text .intro-lead-in",
+			"shrink",
 			"external",
 			"HEAD",
 			">>>>>",
@@ -855,27 +858,7 @@
 			"get_curr_user",
 			"synchro",
 			"view",
-			"CURRENT_TIMESTAMP",
-			"m_datetime",
-			"g_timestamp",
-			"timestamp",
-			"v_goo",
-			"sqlplus",
-			"Timestamp: 18:08",
-			"Timestamp: 18:07",
-			"Timestamp: 18:06",
-			"Timestamp: 18:05",
-			"Timestamp: 12:05",
-			"Timestamp: 12:10",
-			"Timestamp: 12:09",
-			"Timestamp: 12:08",
-			"Timestamp: 12:07",
-			"Timestamp: 12:06",
-			"Timestamp: 12:05",
-			"розет",
-			"v_goods",
-			"g_pagename",
-			"friend-data"
+			"CURRENT_TIMESTAMP"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -883,6 +866,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"h4>",
+			"h3>",
+			"h2>",
+			"[Languages.en.",
+			"[Languages.ru.",
 			"",
 			"#000000",
 			"jQuery",
@@ -953,19 +941,102 @@
 			[
 				{
 					"buffer": 0,
-					"file": "config.toml",
-					"semi_transient": false,
+					"file": "data/portfolio.toml",
 					"settings":
 					{
-						"buffer_size": 22083,
+						"buffer_size": 2328,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								52,
-								52
+								115,
+								115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1035.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "data/ru/portfolio.toml",
+					"settings":
+					{
+						"buffer_size": 2914,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "data/en/portfolio.toml",
+					"settings":
+					{
+						"buffer_size": 2904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config.toml",
+					"settings":
+					{
+						"buffer_size": 19644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14242,
+								14242
 							]
 						],
 						"settings":
@@ -975,160 +1046,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 9979.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "layouts/partials/modals.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1571,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								369,
-								369
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "layouts/partials/nav.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3335,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2978,
-								2978
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "layouts/partials/contact.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4462,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								454,
-								454
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "layouts/partials/head.html",
-					"semi_transient": false,
+					"file": "data/projects/2014-07-10-project-8.yaml",
 					"settings":
 					{
-						"buffer_size": 2134,
+						"buffer_size": 626,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								279,
-								298
+								125,
+								134
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/YAML/YAML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "layouts/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1774,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								50,
-								50
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1165,15 +1111,10 @@
 		]
 	},
 	"menu_visible": true,
-	"output.find_results":
-	{
-		"height": 0.0
-	},
 	"output.unsaved_changes":
 	{
 		"height": 148.0
 	},
-	"project": "portfolio.sublime-project",
 	"replace":
 	{
 		"height": 62.0
@@ -1195,25 +1136,10 @@
 		],
 		"width": 380.0
 	},
-	"select_symbol":
-	{
-		"height": 0.0,
-		"selected_items":
-		[
-		],
-		"width": 0.0
-	},
-	"selected_group": 0,
-	"settings":
-	{
-	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 175.0,
-	"status_bar_visible": true,
-	"template_settings":
-	{
-	}
+	"side_bar_width": 173.0,
+	"status_bar_visible": true
 }
