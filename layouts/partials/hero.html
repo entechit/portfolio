@@ -1,10 +1,12 @@
 {{ "<!-- Hero -->" | safeHTML }}
 <header>
   <div class="container">
-    <div class="intro-text">
-      <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
-     </div>
-     <div class="intro-button">
+  	<div class="intro-logo" style="margin-top: 200px; margin-bottom: 100px;">
+  	  {{ $url := printf "img/%s" .Site.Params.hero.logo }}
+  	  <img src="{{ $url | absURL }}" alt="{{ .Site.Params.navigation.brand }}">
+      <p>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p>
+    </div>
+    <div class="intro-button">
       <a href="#services" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
     </div>
   </div>

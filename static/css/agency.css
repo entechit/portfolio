@@ -292,7 +292,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #FFFFFF;
 }
 
 .navbar-default .navbar-brand {
@@ -307,35 +307,33 @@ fieldset[disabled] .btn-xl.active {
     color: #fec503;
 }
 
-.navbar-brand>img {
-    height: 150px;
-    max-width: 250px;
-    margin: -25px;
+.navbar-brand {
+    padding: 0;
 }
 
+.navbar-brand>img {
+    height: 50px;
+    max-width: 250px;
+}
 
 @media(max-width:767px) {
     .navbar-brand>img {
-        height: 60px;
-        max-width: 300px;
-        margin: -20px -25px -25px -10px;
+        height: 50px;
+        max-width: 200px;
     }
 }
 
-
 @media(min-width:768px) {
     .navbar-brand>img {
-        height: 70px;
-        max-width: 300px;
-        margin: -25px;
+        height: 50px;
+        max-width: 200px;
     }
 }
 
 @media(min-width:992px) {
     .navbar-brand>img {
-        height: 150px;
-        max-width: 400px;
-        margin: -25px;
+        height: 50px;
+        max-width: 200px;
     }
 }
 
@@ -362,7 +360,27 @@ fieldset[disabled] .btn-xl.active {
     font-family: Arial;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: black;
+}
+
+.navbar-shrink .nav li a {
+    color: white;
+}
+
+.navbar-brand .logo {
+    display: block;
+}
+
+.navbar-brand .logo-shrink {
+    display: none;
+}
+
+.navbar-shrink .navbar-brand .logo {
+    display: none;
+}
+
+.navbar-shrink .navbar-brand .logo-shrink {
+    display: block;
 }
 
 .navbar-default .nav li a:hover,
@@ -385,9 +403,9 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0;
         border: 0;
-        background-color: transparent;
+        background-color: #FFFFFF;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -410,7 +428,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand img {
-        height: 70px;
+        height: 50px;
     }
 }
 
@@ -425,6 +443,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    position: relative;
 }
 
 header .intro-text {
@@ -435,7 +454,7 @@ header .intro-text {
 
 header .intro-button {
     text-align: center;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 
 header .intro-text .intro-heading {
@@ -445,6 +464,26 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+}
+
+header .intro-logo {
+    background-color: #689495;
+    border-radius: 20px;
+    opacity: 0.75;
+    width: 760px;
+    height: 400px;
+    text-align: center;
+    padding: 40px 50px;
+    margin: 0 auto;
+}
+
+header .intro-logo p {
+    font-family: ConstantiaI;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1.1;
+    margin: 0;
+    padding: 40px 20px 0;
 }
 
 @media(min-width:768px) {

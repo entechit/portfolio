@@ -35,9 +35,9 @@ googleAnalytics = ""
       # To change the background image of the hero, replace 'header-bg.jpg' in the 'static/img' folder.
   
       title = ""
-      subtitle = "Мы работаем для Вашего успеха с удовольствием"
+      subtitle = "Разработка сайтов и Web-приложений.<br>Готовы к сотрудничеству в реализации<br> Web-проектов любой сложности."
       buttonText = "Узнать больше"
-
+      logo = "logo_intro.png"
 
   # You can use Markdown syntax for urls [text](//url.to/source) or
   # most longer texts.
@@ -55,7 +55,8 @@ googleAnalytics = ""
   # Navigation
   [Languages.ru.navigation]
     brand = "Entech It"
-    logo = "Logo_16_08.png"
+    logo = "logo.png"
+    logo_shrink = "logo_shrink.png"
     services = "Услуги"
     portfolio = "Портфолио"
     techno = "Технологии"
@@ -335,12 +336,14 @@ googleAnalytics = ""
     [Languages.en.hero]
       # To change the background image of the hero, replace 'header-bg.jpg' in the 'static/img' folder.
       title = ""
-      subtitle = "We work for your success with pleasure"
+      subtitle = "Разработка сайтов и Web-приложений.<br>Готовы к сотрудничеству в реализации<br> Web-проектов любой сложности."
       buttonText = "Get more"
+      logo = "logo_intro.png"
 
     [Languages.en.navigation]
       brand = "Entech It"
-      logo = "Logo_16_08.png"
+      logo = "logo.png"
+      logo_shrink = "logo_shrink.png"
       services = "Services"
       portfolio = "Portfolio"
       techno = "Technologies"
