@@ -15,4 +15,10 @@
   translation: "forum"  
 
 - id: blog
-  translation: "blog"    
+  translation: "blog"
+
+- id: crm
+  translation: "CRM"
+
+- id: vcard
+  translation: "Visit-card"

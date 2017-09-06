@@ -189,7 +189,7 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Наша команда"
+    title = "А это мы"
     subtitle = "Давайте знакомиться"
     description = "Наши приоритеты — ответственность, профессионализм, четкое выполнение <br> договорных обязанностей."
 
@@ -482,8 +482,8 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our team"
-    subtitle = "Давайте знакомиться"
+    title = "This is us"
+    subtitle = "Let's get acquainted"
     description = "Наши приоритеты — ответственность, профессионализм, четкое выполнение <br> договорных обязанностей."
 
     # All team member's pictures are stored under 'static/img/team'.

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"border-ra",
+				"border-radius"
+			],
+			[
 				"margi",
 				"margin-bottom"
 			],
@@ -510,52 +514,24 @@
 			[
 				"is",
 				"isset"
-			],
-			[
-				"ses",
-				"session_start"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "data/portfolio.toml",
+			"file": "/D/MYSRV/www/anim/index.html",
 			"settings":
 			{
-				"buffer_size": 2328,
+				"buffer_size": 81,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "data/ru/portfolio.toml",
+			"file": "/D/MYSRV/www/anim/main.css",
 			"settings":
 			{
-				"buffer_size": 2914,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "data/en/portfolio.toml",
-			"settings":
-			{
-				"buffer_size": 2904,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "config.toml",
-			"settings":
-			{
-				"buffer_size": 19644,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "data/projects/2014-07-10-project-8.yaml",
-			"settings":
-			{
-				"buffer_size": 626,
+				"buffer_size": 204,
 				"line_ending": "Windows"
 			}
 		}
@@ -584,6 +560,11 @@
 	},
 	"file_history":
 	[
+		"/W/www/portfolio/data/projects/2014-07-10-project-8.yaml",
+		"/W/www/portfolio/config.toml",
+		"/W/www/portfolio/data/en/portfolio.toml",
+		"/W/www/portfolio/data/ru/portfolio.toml",
+		"/W/www/portfolio/data/portfolio.toml",
 		"/W/www/portfolio/data/projects/2014-07-10-project-6.yaml",
 		"/W/www/portfolio/data/projects/2014-07-10-project-7.yaml",
 		"/W/www/portfolio/data/projects/2014-07-05-project-1.yaml",
@@ -591,9 +572,7 @@
 		"/W/www/portfolio/data/projects/2014-07-07-project-3.yaml",
 		"/W/www/portfolio/data/projects/2014-07-08-project-4.yaml",
 		"/W/www/portfolio/data/projects/2014-07-09-project-5.yaml",
-		"/W/www/portfolio/data/projects/2014-07-10-project-8.yaml",
 		"/W/www/portfolio/static/css/agency.css",
-		"/W/www/portfolio/config.toml",
 		"/W/www/portfolio/portfolio/layouts/partials/portfolio.html",
 		"/W/www/portfolio/portfolio/data/portfolio.toml",
 		"/W/www/portfolio/portfolio/data/en/portfolio.toml",
@@ -708,10 +687,7 @@
 		"/V/synchrowish.com/view/wish_view.php",
 		"/V/automaster.kharkov.ua/models/components.php",
 		"/V/synchrowish.com/controller/controller_friendgift.php",
-		"/V/synchrowish.com/log/xochuxa.com.access.log",
-		"/V/synchrowish.com/log/xochuxa.com.access.log.0",
-		"/V/synchrowish.com/view/friendgift_view.php",
-		"/C/Users/sava/AppData/Local/Temp/bat/snp3_18418.trc"
+		"/V/synchrowish.com/log/xochuxa.com.access.log"
 	],
 	"find":
 	{
@@ -936,140 +912,56 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "data/portfolio.toml",
+					"file": "/D/MYSRV/www/anim/index.html",
 					"settings":
 					{
-						"buffer_size": 2328,
+						"buffer_size": 81,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								115,
-								115
+								72,
+								72
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1035.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "data/ru/portfolio.toml",
+					"file": "/D/MYSRV/www/anim/main.css",
 					"settings":
 					{
-						"buffer_size": 2914,
+						"buffer_size": 204,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								104,
-								104
+								158,
+								158
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "data/en/portfolio.toml",
-					"settings":
-					{
-						"buffer_size": 2904,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								93,
-								93
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "config.toml",
-					"settings":
-					{
-						"buffer_size": 19644,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14242,
-								14242
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 9979.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "data/projects/2014-07-10-project-8.yaml",
-					"settings":
-					{
-						"buffer_size": 626,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								125,
-								134
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

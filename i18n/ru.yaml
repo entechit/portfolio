@@ -12,7 +12,13 @@
   translation: "сайт сообщества"
 
 - id: forum
-  translation: "форум"  
+  translation: "форум"
 
 - id: blog
-  translation: "блог"     
+  translation: "блог"
+
+- id: crm
+  translation: "CRM"
+
+- id: vcard
+  translation: "Сайт-визитка"

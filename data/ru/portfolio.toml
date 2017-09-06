@@ -3,17 +3,17 @@ name = "portfolio_lang"
     [project.entecheco]
         code = "entecheco"
         title = "IT-компания"
-        description = "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+        description = "Корпоративный сайт IT-компании. Целью проекта было повысить узнаваемость компании на рынке, способствовать продвижению продуктов и услуг компании на рынке. Для сайта разработан уникальный шаблон WordPress основанный на идеях material design."
 
     [project.tsm]
         code = "tsm"
         title = "Группа производственных компаний"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, ducimus..."
+        description = "Корпоративный сайт группы производственных компаний. Целью проекта было повысить узнаваемость компании на рынке, способствовать продвижению продуктов и услуг компании на рынке."
 
     [project.xochuxa]
         code = "xochuxa"
         title = "Социальный стартап Хочуха"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
+        description = "Web-приложение, предназначенное для обмена своими пожеланиями для подарков. Приложение формирует сообщество, с возможностью обсуждения подарков, формирование системных и почтовых уведомлений по различным событиям."
 
     [project.ttmaximum]
         code = "ttmaximum"
@@ -48,7 +48,7 @@ name = "portfolio_lang"
  [project.zelentsov]
         code = "zelentsov"
         title = "Адвокатское бюро"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
+        description = "Портал"
 
 [project.galislava]
         code = "galislava"
@@ -59,16 +59,34 @@ name = "portfolio_lang"
   [project.automaster]
         code = "automaster"
         title = "Планирование работ СТО"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
+        description = '''WEB-приложение, обеспечивающее полный цикл работы автосервиса с клиентами:
+
+- продвижение услуг СТО на рылке, через сайт (визитка, блог)
+- получение с сайта заявок на обслужвание автомобилей
+- планирование работ через формирование графика работы СТО и загрузки рабочих мест
+- учет работ с формированием нарядов
+- система нормирования работ и нормативные справочники
+- формирование сервисной книги клиента и отображение ее в личном кабинете
+- обеспечение обратной связи книентов с топ-менеджментом по выполненным работам
+- формирование внутренней управленческой отчетности
+
+Проект продается. Приглашаем СТО для сотрудничества. Условия на сайте http://asu.biz.ua
+        '''
 
 
     [project.tahir]
         code = "tahir"
         title = "Строительная компания"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
+        description = "Сайт визитка региональной компании, занимающейся конструированием и ремонтом кровель."
 
 
 [project.multijob]
         code = "multijob"
         title = "Белиберда-белибердень"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
+
+[project.asu]
+        code = "asu"
+        title = "Визитка CRM системы"
+        description = "Сайт-визитка CRM системы для продвижения услуг и учета работ СТО"
+        

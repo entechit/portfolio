@@ -45,28 +45,33 @@ name = "portfolio_lang"
 
  [project.zelentsov]
         code = "zelentsov"
-        title = "Адвокатское объединение"
+        title = "Law Office"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
 
 
 [project.galislava]
         code = "galislava"
-        title = "Магазин одежды"
+        title = "Clothing store"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
 
 
    [project.automaster]
         code = "automaster"
-        title = "Планирование работ СТО"
+        title = "SRM for auto service"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
 
 
     [project.tahir]
         code = "tahir"
-        title = "Строительная компания"
+        title = "Construction company"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
 
 [project.multijob]
         code = "multijob"
         title = "Белиберда-белибердень"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
+
+[project.asu]
+        code = "asu"
+        title = "CRM Visit card"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
