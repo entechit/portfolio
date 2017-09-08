@@ -77,11 +77,7 @@ $('.selectbox').click(function(){
 //
 $('.selectbox-dropdown-item').click(function(){ 
   var sel_id  = $(this).attr('id');
-  var text = $(this).html();
-  var hint = $(this).text();
   $('.selectbox-dropdown').hide();
-  $("#selectbox-text").html(text);
-  $("#selectbox-text").attr('title', hint);
   $(".selectbox-dropdown-item").removeClass("selected");
   $("#"+sel_id).addClass("selected");
 });

@@ -3,19 +3,19 @@
   <div class="container">
     <div class = "lang">
       <div id="langs-list" class = "selectbox-dropdown">
-        {{ range $i, $e := .Translations }}
-          {{ range .list }}  
-            <div class="selectbox-dropdown-item" id="{{ $e.Language.LanguageName }}">
-              <a href="{{ .Permalink }}">{{ $e.Language.LanguageName }}</a>
+        
+            <div class="selectbox-dropdown-item" id="en">
+              <a href=" /">EN</a>
             </div>  
-          {{ end }}  
-        {{ end }}
+            <div class="selectbox-dropdown-item" id="ru">
+              <a href="/ru">RU</a>
+            </div>  
       </div>
       <div id="selectbox-text" class = "selectbox">
-        EN
+        {{ upper .Site.Language.Lang  }}
       </div>
       <a class = "btn-select" href="#" id="btn-lang-select">
-        <span class = "i_wish_poligon selectbox"></span>
+        <span class = "fa fa-caret-down selectbox"></span>
       </a> 
     </div>
     {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}

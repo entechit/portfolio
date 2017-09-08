@@ -21,7 +21,8 @@ googleAnalytics = ""
 
 #**************************************** РУССКИЙ ***********************************************
 [Languages]
-  [Languages.ru]
+
+ [Languages.ru]
     languageName = "RU"
     weight = 2
     title = "EntechIT"
