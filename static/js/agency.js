@@ -65,3 +65,28 @@ $('form[id=contactForm]').submit(function(){
 $.validate({
   modules : 'html5, toggleDisabled'
 });
+
+// Selectbox dropdown 
+$('.selectbox').click(function(){ 
+  if ($('.selectbox-dropdown').is(':visible')) {
+    $('.selectbox-dropdown').hide();
+  } else {
+    $('.selectbox-dropdown').show();
+  }
+});
+//
+$('.selectbox-dropdown-item').click(function(){ 
+  var sel_id  = $(this).attr('id');
+  var text = $(this).html();
+  var hint = $(this).text();
+  $('.selectbox-dropdown').hide();
+  $("#selectbox-text").html(text);
+  $("#selectbox-text").attr('title', hint);
+  $(".selectbox-dropdown-item").removeClass("selected");
+  $("#"+sel_id).addClass("selected");
+});
+$(document).click(function(e){
+    if (!$(e.target).hasClass("selectbox") && $('.selectbox-dropdown').css("display") == "block") {
+        $('.selectbox-dropdown').hide();
+    }
+});

@@ -1,6 +1,6 @@
 # Site settings
-baseurl = "http://localhost:1313/"
-#baseurl = "http://entechit.com.ua/"
+#baseurl = "http://localhost:1313/"
+baseurl = "http://entechit.com.ua/"
 languageCode = "en-us"
 title = "EntechIT"
 theme = "hugo-agency-theme"
@@ -22,7 +22,7 @@ googleAnalytics = ""
 #**************************************** РУССКИЙ ***********************************************
 [Languages]
   [Languages.ru]
-    languageName = "Русский"
+    languageName = "RU"
     weight = 2
     title = "EntechIT"
     description = "Веб студия EntechIT, Украина приглашает к сотрудничеству заказчиков и посредников."
@@ -321,7 +321,7 @@ googleAnalytics = ""
       #****************************************** ENGLISH *********************************************
 
   [Languages.en]
-    languageName = "English"
+    languageName = "EN"
     weight = 1
     title = "EntechIT"
     description = "Web-studio EntechIT, Ukraine invites to cooperation customers and intermediaries"

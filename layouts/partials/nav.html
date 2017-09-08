@@ -1,7 +1,23 @@
 {{ "<!-- Navigation -->" | safeHTML }}
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
-
+    <div class = "lang">
+      <div id="langs-list" class = "selectbox-dropdown">
+        {{ range $i, $e := .Translations }}
+          {{ range .list }}  
+            <div class="selectbox-dropdown-item" id="{{ $e.Language.LanguageName }}">
+              <a href="{{ .Permalink }}">{{ $e.Language.LanguageName }}</a>
+            </div>  
+          {{ end }}  
+        {{ end }}
+      </div>
+      <div id="selectbox-text" class = "selectbox">
+        EN
+      </div>
+      <a class = "btn-select" href="#" id="btn-lang-select">
+        <span class = "i_wish_poligon selectbox"></span>
+      </a> 
+    </div>
     {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
     <div class="navbar-header page-scroll">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -73,14 +89,11 @@
           </li>
         {{ end }}
 
-          <li>
-            {{ range $i, $e := .Translations }}
-              {{ if $i }}, {{ end }}<a class="page-scroll" href="{{ .Permalink }}">{{ $e.Language.LanguageName }}</a>
-            {{ end }}
-          </li>
+          
       </ul>
     </div>
     {{ "<!-- /.navbar-collapse -->" | safeHTML }}
+    
   </div>
   {{ "<!-- /.container-fluid -->" | safeHTML }}
 </nav>

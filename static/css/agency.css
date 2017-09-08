@@ -491,7 +491,6 @@ header .intro-logo p {
         /*padding-top: 250px;*/
         /*padding-bottom: 200px;*/
     }
-    }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
@@ -502,6 +501,73 @@ header .intro-logo p {
         line-height: 50px;
 		color: #7a2c61;
     }
+}
+
+.lang {
+    position: absolute;
+    right: 80px;
+    height: 20px;
+    width: 70px;
+    border: 1px solid black;
+    margin-top: 15px;
+    box-sizing: border-box;
+    line-height: 20px;
+    background-color: #FFFFFF;
+}
+
+#langs-list { 
+    position: absolute;
+    border: 1px solid black;
+    display: none;
+    top: 19px;
+    background-color: #FFFFFF;
+    width: 70px;
+}
+
+#langs-list a { 
+    display: block;
+}
+
+/* selectbox */
+.selectbox-dropdown {
+    cursor: pointer; 
+    z-index: 95;
+    display: none;
+}
+
+.selectbox-dropdown-item {
+    padding: 5px 10px; 
+    line-height: 1;
+}
+
+.selectbox-dropdown-item.selected {
+    background-color: #A3ABB1;
+}
+
+.selectbox-dropdown-item:hover {
+    background-color: #5488af; 
+}
+
+#selectbox-text { 
+    height: 100%;
+    padding: 0 55px 0 10px;
+    cursor: pointer; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} 
+
+.btn-select {
+    display: block; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 19px;
+    width: 20px;
+    border-left: 1px solid black;
 }
 
 section {
