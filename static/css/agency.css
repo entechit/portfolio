@@ -503,8 +503,8 @@ header .intro-logo p {
 }
 
 .lang {
-    position: absolute;
-    right: 80px;
+    float: right;
+    position: relative;
     height: 20px;
     width: 70px;
     border: 1px solid black;
@@ -512,6 +512,7 @@ header .intro-logo p {
     box-sizing: border-box;
     line-height: 20px;
     background-color: #FFFFFF;
+    margin-left: 80px;
 }
 
 #langs-list { 
@@ -521,10 +522,19 @@ header .intro-logo p {
     top: 19px;
     background-color: #FFFFFF;
     width: 70px;
+    margin-left: -1px;
 }
 
 #langs-list a { 
     display: block;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .lang {
+        position: absolute;
+        right: 80px;
+    }
 }
 
 /* selectbox */

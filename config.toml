@@ -190,7 +190,7 @@ googleAnalytics = ""
   [Languages.ru.team]
     enable = true
     # Possibility to center items
-    #center = true
+    center = true
     title = "А это мы"
     subtitle = "Давайте знакомиться"
     description = "Наши приоритеты — ответственность, профессионализм, четкое выполнение <br> договорных обязанностей."
@@ -485,7 +485,7 @@ googleAnalytics = ""
   [Languages.en.team]
     enable = true
     # Possibility to center items
-    #center = true
+    center = true
     title = "This is us"
     subtitle = "Let's get acquainted"
     description = "Наши приоритеты — ответственность, профессионализм, четкое выполнение <br> договорных обязанностей."
