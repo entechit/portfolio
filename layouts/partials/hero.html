@@ -1,7 +1,7 @@
 {{ "<!-- Hero -->" | safeHTML }}
 <header>
   <div class="container">
-  	<div class="intro-logo" style="margin-top: 200px; margin-bottom: 100px;">
+  	<div class="intro-logo">
   	  {{ $url := printf "img/%s" .Site.Params.hero.logo }}
   	  <img src="{{ $url | absURL }}" alt="{{ .Site.Params.navigation.brand }}">
       <p>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p>
