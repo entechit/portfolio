@@ -317,8 +317,9 @@ fieldset[disabled] .btn-xl.active {
 
 @media(max-width:767px) {
     .navbar-brand>img {
-        height: 50px;
+        height: 34px;
         max-width: 200px;
+        margin: 8px 15px; 
     }
 }
 
@@ -380,6 +381,16 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-shrink .navbar-brand .logo-shrink {
     display: block;
+}
+
+@media (max-width: 767px) {
+    .navbar-shrink .navbar-brand .logo {
+        display: block;
+    }
+
+    .navbar-shrink .navbar-brand .logo-shrink {
+        display: none;
+    }
 }
 
 .navbar-default .nav li a:hover,
@@ -531,7 +542,7 @@ header .intro-logo p {
     text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .lang {
         position: absolute;
         right: 80px;
