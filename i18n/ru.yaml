@@ -22,3 +22,12 @@
 
 - id: vcard
   translation: "Сайт-визитка"
+
+- id: aggregator
+  translation: "аггрегатор"
+
+- id: site_builder
+  translation: "конструктор сайтов"
+
+- id: catalogue
+  translation: "каталог"

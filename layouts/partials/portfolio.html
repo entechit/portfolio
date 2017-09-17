@@ -13,7 +13,7 @@
         <ul class="portfolio-list">
             {{ range sort $data.portfolio.project "weight" }}
                 {{ $curCode := .code }}   
-                {{ $imgUrl := printf "img/portfolio/%s" .preview }}
+                {{ $imgUrl := printf "img/portfolio/%s_pre.jpg" .code }}
                 {{ $category := .category }}  
                 
                 {{/* показываем только если к нему есть переводы в языковом файле */}}
@@ -24,21 +24,23 @@
                                 <a href="#portfolioModal{{ $curCode}}" class="portfolio-link" data-toggle="modal">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-hover-content">
-                                            <i class="fa fa-plus fa-3x"></i>
+                                            <i class="fa fa-search-plus fa-3x"></i>
                                         </div>
                                     </div>
                                     <img src="{{ $imgUrl | absURL }}" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>{{ .title | markdownify }}</h4>
+                                
+                                    <div class="portfolio-caption">
+                                        <h4>{{ .title | markdownify }}</h4>
 
-                                    <p class="portfolio-category text-muted">
-                                        {{ range $index, $value := $category }}
-                                            {{/* $cat := index . */}}
-                                            {{ if gt $index 0 }}, {{ end }}{{ T $value }}
-                                        {{ end }}
-                                    </p>
-                                </div>
+                                        <p class="portfolio-category text-muted">
+                                                {{/* $cat := index . */}}
+                                            {{ range $index, $value := $category }}
+                                                {{- if eq $index 0 }}{{ T $value -}}{{ end }}
+                                                {{/*- if gt $index 0 }}, {{ end }}{{ T $value -*/}}
+                                            {{ end }}
+                                        </p>
+                                    </div>
+                                </a>
                             </div>
                         </li>
                     {{ end }}

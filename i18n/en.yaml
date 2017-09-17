@@ -22,3 +22,12 @@
 
 - id: vcard
   translation: "Visit-card"
+
+- id: aggregator
+  translation: "aggregator"
+
+- id: site_builder
+  translation: "site builder"
+
+- id: catalogue
+  translation: "catalogue"
