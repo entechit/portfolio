@@ -21,7 +21,7 @@
   translation: "CRM"
 
 - id: vcard
-  translation: "Visit-card"
+  translation: "Landing"
 
 - id: aggregator
   translation: "aggregator"

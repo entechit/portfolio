@@ -445,7 +445,7 @@ header {
     text-align: left;
     color: #ffffda;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-xl.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -513,16 +513,22 @@ header .intro-logo p {
     }
 }
 
-@media(max-width:1199px) {
+@media(min-width:721px and max-width:992px) {
     header {
-        background-image: url(../img/header-sm.png);
+        background-image: url(../img/header-md.png);
+    }
+}
+
+@media(max-width:720px) {
+    header {
+        background-image: url(../img/header-xs.png);
     }
 }
 
 .lang {
     float: right;
     position: relative;
-    height: 20px;
+    height: 22px;
     width: 70px;
     border: 1px solid black;
     margin-top: 15px;

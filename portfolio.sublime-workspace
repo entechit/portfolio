@@ -520,26 +520,34 @@
 	"buffers":
 	[
 		{
-			"file": "layouts/partials/hero.html",
+			"file": "/V/parsyii.org/html/controllers/c_SourceSite.php",
 			"settings":
 			{
-				"buffer_size": 395,
+				"buffer_size": 350,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "config.toml",
+			"file": "/V/parsyii.org/html/controllers/SiteController.php",
 			"settings":
 			{
-				"buffer_size": 19643,
+				"buffer_size": 3206,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "layouts/partials/nav.html",
+			"file": "/V/parsyii.org/html/models/SourceSiteForm.php",
 			"settings":
 			{
-				"buffer_size": 3335,
+				"buffer_size": 933,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/V/parsyii.org/html/views/site/v_sourcesite.php",
+			"settings":
+			{
+				"buffer_size": 2024,
 				"line_ending": "Windows"
 			}
 		}
@@ -568,13 +576,46 @@
 	},
 	"file_history":
 	[
+		"/V/parsyii.org/html/.gitignore",
+		"/D/temp/sitemap.xml",
+		"/C/Users/sava/Documents/dumps/Dump20170918.sql",
+		"/V/parsyii.org/html/config/db.php",
+		"//titan/ET_Work/fincollection/updates/ЭнТехЭко/os/os_201709_01.04.12.11/user_doc.txt",
+		"//titan/ET_Work/fincollection/updates/ЭнТехЭко/os/os_201709_01.04.12.11/tester_doc.txt",
+		"/V/parsyii.org/html/logs/error.log",
+		"/V/parspresta.org/html/public/index.php",
+		"/V/parspresta.org/html/core/model.php",
+		"/V/parspresta.org/html/core/view.php",
+		"/V/parspresta.org/html/core/controller.php",
+		"/V/parspresta.org/html/view/v_welcome.php",
+		"/V/parspresta.org/html/core/route.php",
+		"/V/synchrowish.com/core/route.php",
+		"/V/parspresta.org/html/core/config.php",
+		"/V/parspresta.org/html/controller/c_welcome.php",
+		"/V/parspresta.org/html/model/m_welcome.php",
+		"//172.16.18.15/c$/web/apache/conf/extra/httpd-vhosts.conf",
+		"/V/parspresta.org/html/view/v_bootstrap.php",
+		"/V/parspresta.org/html/view/v_template.php",
+		"/V/parspresta.org/html/index.php",
+		"/V/parspresta.org/html/.htaccess",
+		"/D/temp/xochuxa/.htaccess",
+		"/D/temp/xochuxa/webstat/.htaccess",
+		"/D/temp/xochuxa/public/.htaccess",
+		"/D/temp/.htaccess",
+		"/C/Users/sava/AppData/Local/Temp/_tc_/.htaccess",
+		"/W/www/portfolio/layouts/partials/nav.html",
+		"/W/www/portfolio/config.toml",
+		"/W/www/portfolio/static/js/agency.js",
+		"/W/www/portfolio/static/css/icomoon.css",
+		"/W/www/portfolio/static/css/agency.css",
+		"/W/www/portfolio/public/js/agency.js",
+		"/W/www/portfolio/layouts/partials/hero.html",
 		"/V/automaster.kharkov.ua/js/work.js",
 		"/W/www/portfolio/data/en/portfolio.toml",
 		"/W/www/portfolio/data/ru/portfolio.toml",
 		"/W/www/portfolio/i18n/ru.yaml",
 		"/W/www/portfolio/i18n/en.yaml",
 		"/W/www/portfolio/data/portfolio.toml",
-		"/W/www/portfolio/config.toml",
 		"/W/www/portfolio/layouts/partials/modals.html",
 		"/W/www/portfolio/data/projects/2014-07-05-project-1.yaml",
 		"/D/MYSRV/www/anim/index.html",
@@ -586,7 +627,6 @@
 		"/W/www/portfolio/data/projects/2014-07-07-project-3.yaml",
 		"/W/www/portfolio/data/projects/2014-07-08-project-4.yaml",
 		"/W/www/portfolio/data/projects/2014-07-09-project-5.yaml",
-		"/W/www/portfolio/static/css/agency.css",
 		"/W/www/portfolio/portfolio/layouts/partials/portfolio.html",
 		"/W/www/portfolio/portfolio/data/portfolio.toml",
 		"/W/www/portfolio/portfolio/data/en/portfolio.toml",
@@ -596,13 +636,10 @@
 		"/C/Users/sava/Downloads/xochuxa.com.access.log",
 		"/D/temp/attach.txt",
 		"/V/synchrowish.com/controller/controller_faq.php",
-		"/V/synchrowish.com/core/route.php",
 		"/V/synchrowish.com/view/faq_view.php",
 		"/V/synchrowish.com/view/terms_view.php",
 		"/W/www/portfolio/layouts/partials/head.html",
-		"/W/www/portfolio/layouts/partials/hero.html",
 		"/W/www/portfolio/layouts/index.html",
-		"/W/www/portfolio/layouts/partials/nav.html",
 		"/V/synchrowish.com/view/usersettings_view.php",
 		"/V/synchrowish.com/view/footer.php",
 		"/W/www/port/nav.html",
@@ -625,7 +662,6 @@
 		"/W/www/portfolio/layouts/partials/portfolio.html",
 		"/W/www/portfolio/.gitignore",
 		"/C/Users/sava/AppData/Local/Temp/_tc/robots.txt",
-		"/W/www/portfolio/static/css/icomoon.css",
 		"/W/www/portfolio/layouts/partials/team.html",
 		"/W/www/portfolio/public/css/technologies.css",
 		"/W/www/portfolio/layouts/partials/clients.html",
@@ -667,35 +703,7 @@
 		"/V/synchrowish.com/model/model_usermessage.php",
 		"/V/synchrowish.com/controller/controller_wishes.php",
 		"/V/synchrowish.com/controller/controller_usermessage.php",
-		"/V/synchrowish.com/view/userinfo_view.php",
-		"/V/synchrowish.com/controller/controller_wishers.php",
-		"/V/synchrowish.com/model/model_userinfo.php",
-		"/V/synchrowish.com/view/header.php",
-		"/V/synchrowish.com/model/model_usersettings.php",
-		"/V/synchrowish.com/model/model_friendsgifts.php",
-		"/V/synchrowish.com/view/img_view.php",
-		"/V/synchrowish.com/userimg/goods/6/184.jpg",
-		"/V/synchrowish.com/public/js/img_edit.js",
-		"/V/synchrowish.com/model/model_wishes.php",
-		"/D/temp/165.jpg",
-		"/V/synchrowish.com/public/phpinfo.php",
-		"/V/synchrowish.com/public/js/user_settings.js",
-		"/V/synchrowish.com/controller/controller_usersettings.php",
-		"/V/synchrowish.com/model/model_wish.php",
-		"/V/synchrowish.com/model/model_forum.php",
-		"/V/synchrowish.com/view/template_view.php",
-		"/V/synchrowish.com/model/model_backaction.php",
-		"/V/synchrowish.com/prom_server/xochuxa.com.error.log",
-		"/V/synchrowish.com/controller/controller_userinfo.php",
-		"/V/synchrowish.com/prom_server/xochuxa.com.access.log",
-		"/C/Users/sava/AppData/Local/Temp/_tc/xochuxa.com.error.log",
-		"/V/synchrowish.com/controller/controller_main.php",
-		"/V/synchrowish.com/controller/controller_wish.php",
-		"/V/synchrowish.com/public/css/img.css",
-		"/V/synchrowish.com/view/wishes_view.php",
-		"/C/Users/sava/AppData/Local/Temp/_tc/alert_ZMTESN.log",
-		"/C/Users/sava/AppData/Local/Temp/_tc/ora_23233.trc",
-		"/D/temp/ZMTESN/alert_ZMTESN.log"
+		"/V/synchrowish.com/view/userinfo_view.php"
 	],
 	"find":
 	{
@@ -715,6 +723,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			")",
+			"(",
+			"	",
+			"),",
+			"  ",
+			"признаков использования не найдено",
+			";\n",
+			"weight",
 			"port",
 			"team",
 			"port",
@@ -834,15 +850,7 @@
 			"baf_get_friend_detail",
 			"init_session_params",
 			"Instagram",
-			"error_log",
-			"www",
-			"1 _SERVER[REQUEST_URI]",
-			"friend_header_bottom2.png",
-			"v_friend_list",
-			"v_goo",
-			"v_frie",
-			"get_curr_user",
-			"synchro"
+			"error_log"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -850,6 +858,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"')",
+			"('",
+			"),",
+			"",
 			"h4>",
 			"h3>",
 			"h2>",
@@ -920,27 +932,28 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "layouts/partials/hero.html",
+					"file": "/V/parsyii.org/html/controllers/c_SourceSite.php",
 					"settings":
 					{
-						"buffer_size": 395,
+						"buffer_size": 350,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								350,
+								350
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -950,56 +963,84 @@
 				},
 				{
 					"buffer": 1,
-					"file": "config.toml",
+					"file": "/V/parsyii.org/html/controllers/SiteController.php",
 					"settings":
 					{
-						"buffer_size": 19643,
+						"buffer_size": 3206,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								727,
-								727
+								3035,
+								3035
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2691.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "layouts/partials/nav.html",
+					"file": "/V/parsyii.org/html/models/SourceSiteForm.php",
 					"settings":
 					{
-						"buffer_size": 3335,
+						"buffer_size": 933,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3041,
-								3041
+								357,
+								357
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/V/parsyii.org/html/views/site/v_sourcesite.php",
+					"settings":
+					{
+						"buffer_size": 2024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 92.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
