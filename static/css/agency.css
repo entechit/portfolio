@@ -126,7 +126,6 @@ font-style: normal;
 body {
     overflow-x: hidden;
     font-family: Arial;
-    min-width: 768px;
 }
 
 .text-muted {
@@ -342,8 +341,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #7a2c61;
+    background-color: #7a2c61;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -511,6 +510,12 @@ header .intro-logo p {
         font-weight: normal;
         line-height: 50px;
 		color: #7a2c61;
+    }
+}
+
+@media(max-width:1199px) {
+    header {
+        background-image: url(../img/header-sm.png);
     }
 }
 
