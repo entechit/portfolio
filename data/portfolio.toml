@@ -3,93 +3,132 @@ name = "portfolio"
     [project.entecheco]
         weight = 1
         code = "entecheco"
-        img = "entecheco1_pre.jpg"
-        preview = "entecheco_pre.jpg"
         link = "http://www.entecheco.com"
         category = ["corporative"]
-        tech = "WordPress, HTML5, JS"
+        tech = "WordPress, JS"
 
     [project.tsm]
         weight = 2
         code = "tsm"
-        img = "tsm_pre.jpg"
-        preview = "tsm_pre.jpg"
         link = "#"
         category = ["corporative"]
-        tech = "WordPress, HTML5, JS"
+        tech = "WordPress, JS"
 
     [project.xochuxa]
         weight = 3
         code = "xochuxa"
-        img = "xochuxa_pre.jpg"
-        preview = "xochuxa_pre.jpg"
         link = "http://xochuxa.com"
         category = ["web_application"]
-        tech = "PHP, MySQL, jQuery, HTML5"
+        tech = "PHP, MySQL, jQuery"
 
-    [project.ttmaximum]
+    [project.beon]
         weight = 4
-        code = "ttmaximum"
-        img = "ttmaximum_pre.jpg"
-        preview = "ttmaximum_pre.jpg"
-        link = "http://tt-maximum.com"
-        category = ["shop","community","forum","blog"]
-        tech = "PHP, MySQL, jQuery, HTML5"
+        code = "beon"
+        link = "http://beonmarket.com"
+        category = ["corporative"]
+        tech = "PHP, MySQL, jQuery"
 
-
-    [project.zelentsov]
+    [project.point]
         weight = 5
-        code = "zelentsov"
-        img = "zelentsov_pre.jpg"
-        preview = "zelentsov_pre.jpg"
-        link = "http://zelentsov.org"
-        category = ["community","forum","blog"]
-        tech = "PHP, MySQL, jQuery, HTML5"
+        code = "point"
+        link = "http://point-collection.com.ua"
+        category = ["shop"]
+        tech = "PHP, MySQL, jQuery"
 
-    [project.galislava]
-        weight = 6
-        code = "galislava"
-        img = "galislava_pre.jpg"
-        preview = "galislava_pre.jpg"
-        link = "http://galislava.com"
-        category = ["shop","community","forum","blog"]
-        tech = "PHP, MySQL, jQuery, HTML5"
+    #[project.galislava]
+    #    weight = 6
+    #    code = "galislava"
+    #    link = "http://galislava.com"
+    #    category = ["shop"]
+    #    tech = "PHP, MySQL, jQuery"
 
     [project.automaster]
-        weight = 7
+        weight = 6
         code = "automaster"
-        img = "automaster_pre.jpg"
-        preview = "automaster_pre.jpg"
         link = "http://demo.asu.biz.ua"
         category = ["crm","corporative","blog"]
-        tech = "PHP, MySQL, jQuery, HTML5"        
+        tech = "PHP, MySQL, jQuery"
+  
+    [project.ttbl]
+        weight = 7
+        code = "ttbl"
+        link = "http://ttbl.ru"
+        category = ["shop","blog"]
+        tech = "PHP, MySQL, jQuery" 
 
+    [project.classtour]
+        weight = 8
+        code = "classtour"
+        link = "http://class-tour.com"
+        category = ["corporative"]
+        tech = "PHP, MySQL, jQuery"
+
+    [project.uagift]
+        weight = 9
+        code = "uagift"
+        link = "http://uagift.com"
+        category = ["shop"]
+        tech = "PHP, MySQL, jQuery"
+
+    [project.wilcon]
+        weight = 10
+        code = "wilcon"
+        link = "http://wilcon-security.com"
+        category = ["shop"]
+        tech = "PHP, MySQL, jQuery"
+
+    #[project.europsim]
+    #    weight = 11
+    #    code = "europsim"
+    #    link = "http://europsim.eu"
+    #    category = ["shop"]
+    #    tech = "PHP, MySQL, jQuery"
+
+    [project.ttmaximum]
+        weight = 12
+        code = "ttmaximum"
+        link = "http://tt-maximum.com"
+        category = ["shop","community","forum","blog"]
+        tech = "PHP, MySQL, jQuery, SMF-forum"
+
+    [project.meteorit]
+        weight = 12
+        code = "meteorit"
+        link = "http://meteorit-tt.com"
+        category = ["corporative"]
+        tech = "PHP, MySQL, jQuery"
 
     [project.tahir]
-        weight = 8
+        weight = 13
         code = "tahir"
-        img = "tahir_pre.jpg"
-        preview = "tahir_pre.jpg"
         link = "http://bestroof.kh.ua"
         category = ["vcard"]
-        tech = "PHP, MySQL, jQuery, HTML5"        
+        tech = "PHP, MySQL, jQuery"
 
+    [project.campgite]
+        weight = 14
+        code = "campgite"
+        link = "http://campgite.eu"
+        category = ["site_builder", "aggregator"]
+        tech = "Symfony, payment systems"
 
-  [project.multijob]
-        weight = 9
+    [project.multijob]
+        weight = 15
         code = "multijob"
-        img = "multijob_pre.jpg"
-        preview = "multijob_pre.jpg"
         link = "http://multijob.eu"
-        category = ["blog", "forum"]
-        tech = "PHP, MySQL, jQuery, HTML5"
+        category = ["catalogue","web_application"]
+        tech = "Symfony, payment systems"
 
-
- [project.asu]
-        weight = 10
+    [project.asu]
+        weight = 16
         code = "asu"
-        img = "asu_pre.jpg"
-        preview = "asu_pre.jpg"
         link = "http://asu.biz.ua"
         category = ["vcard"]
-        tech = "PHP, MySQL, jQuery, HTML5"
+        tech = "PHP, MySQL, jQuery"
+
+    [project.zelentsov]
+        weight = 17
+        code = "zelentsov"
+        link = "http://zelentsov.org"
+        category = ["corporative","blog"]
+        tech = "OctoberCMS"

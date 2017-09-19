@@ -480,7 +480,7 @@ header .intro-logo {
     background-color: #689495;
     border-radius: 20px;
     opacity: 0.75;
-    width: 760px;
+    max-width: 760px;
     height: 400px;
     text-align: center;
     padding: 40px 50px;
@@ -677,6 +677,7 @@ section h3.section-subheading {
     position: relative;
     margin: 0 auto;
     /*max-width: 400px;*/
+    height: 100%;
 }
 
 .portfolio-link .portfolio-hover {
@@ -708,6 +709,9 @@ section h3.section-subheading {
 .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
+}
+a.portfolio-link:hover {
+    text-decoration: none;
 }
 
 .portfolio-caption {
