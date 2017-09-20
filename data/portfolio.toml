@@ -21,12 +21,12 @@ name = "portfolio"
         category = ["web_application"]
         tech = "PHP, MySQL, jQuery"
 
-    [project.beon]
-        weight = 4
-        code = "beon"
-        link = "http://beonmarket.com"
-        category = ["corporative"]
-        tech = "PHP, MySQL, jQuery"
+    #[project.beon]
+    #    weight = 4
+    #    code = "beon"
+    #    link = "http://beonmarket.com"
+    #    category = ["corporative"]
+    #    tech = "PHP, MySQL, jQuery"
 
     [project.point]
         weight = 5
@@ -56,12 +56,12 @@ name = "portfolio"
         category = ["shop","blog"]
         tech = "PHP, MySQL, jQuery" 
 
-    [project.classtour]
-        weight = 8
-        code = "classtour"
-        link = "http://class-tour.com"
-        category = ["corporative"]
-        tech = "PHP, MySQL, jQuery"
+    #[project.classtour]
+    #    weight = 8
+    #    code = "classtour"
+    #    link = "http://class-tour.com"
+    #    category = ["corporative"]
+    #    tech = "PHP, MySQL, jQuery"
 
     [project.uagift]
         weight = 9
@@ -112,12 +112,12 @@ name = "portfolio"
         category = ["site_builder", "aggregator"]
         tech = "Symfony, payment systems"
 
-    [project.multijob]
-        weight = 15
-        code = "multijob"
-        link = "http://multijob.eu"
-        category = ["catalogue","web_application"]
-        tech = "Symfony, payment systems"
+    #[project.multijob]
+    #    weight = 15
+    #    code = "multijob"
+    #    link = "http://multijob.eu"
+    #    category = ["catalogue","web_application"]
+    #   tech = "Symfony, payment systems"
 
     [project.asu]
         weight = 16
@@ -132,3 +132,10 @@ name = "portfolio"
         link = "http://zelentsov.org"
         category = ["corporative","blog"]
         tech = "OctoberCMS"
+
+    [project.psy]
+        weight = 17
+        code = "psy"
+        link = "http://firstpsy.com"
+        category = ["catalogue","blog","community"]
+        tech = "AstraCMS"

@@ -481,10 +481,14 @@ header .intro-logo {
     border-radius: 20px;
     opacity: 0.75;
     max-width: 760px;
-    height: 400px;
+    /*height: 400px;*/
     text-align: center;
     padding: 40px 50px;
     margin: 110px auto;
+}
+header .intro-logo img {
+    max-width: 602px;
+    width: 100%;
 }
 
 header .intro-logo p {
@@ -577,7 +581,10 @@ header .intro-logo p {
 }
 
 .selectbox-dropdown-item:hover {
-    background-color: #5488af; 
+    background-color: #7a2c61;/*#5488af; */
+}
+.selectbox-dropdown-item:hover a {
+    color: #fff;    
 }
 
 #selectbox-text { 
@@ -600,6 +607,7 @@ header .intro-logo p {
     height: 19px;
     width: 20px;
     border-left: 1px solid black;
+    cursor: pointer;
 }
 
 section {
@@ -609,15 +617,15 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 60px;
-	color: #303030;
+    font-size: 2.5em;/*60px;*/
+    color: #303030;
 }
 
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: ConstantiaI;
-	font-size: 20px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 400;
 }
@@ -625,6 +633,9 @@ section h3.section-subheading {
 @media(min-width:768px) {
     section {
         padding: 150px 0;
+    }
+    section h2.section-heading {
+        font-size: 3.75em;
     }
 }
 
@@ -1233,6 +1244,11 @@ section#contact .text-danger {
 
 section#contact .text-success {
     color: #ffffff;
+}
+
+.tech-img {
+    max-width: 730px;
+    width: 100%;
 }
 
 footer {

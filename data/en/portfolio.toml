@@ -4,26 +4,23 @@ name = "portfolio_lang"
         code = "entecheco"
         title = "IT-company"
         description = "Корпоративный сайт IT-компании. Целью проекта было повысить узнаваемость компании на рынке, способствовать продвижению продуктов и услуг компании на рынке. Для сайта разработан уникальный шаблон WordPress основанный на идеях material design."
+        tech_desc = "использованные технологии: PHP, MySQL, JQuery"
+        work = "full development"
 
     [project.tsm]
         code = "tsm"
         title = "Группа производственных компаний"
         description = "Корпоративный сайт группы производственных компаний. Целью проекта было повысить узнаваемость компании на рынке, способствовать продвижению продуктов и услуг компании на рынке."
+        tech_desc = "использованные технологии: PHP, MySQL, JQuery"
+        work = "full development"
 
     [project.xochuxa]
         code = "xochuxa"
         title = "Социальный стартап Хочуха"
         description = "Web-приложение, предназначенное для обмена своими пожеланиями для подарков. Приложение формирует сообщество, с возможностью обсуждения подарков, формирование системных и почтовых уведомлений по различным событиям."
+        tech_desc = "использованные технологии: PHP, MySQL, JQuery"
+        work = "full development"
     
-    [project.beon]
-        code = "beon"
-        title = "Consulting company"
-        description = "«Beonmarket» - это международная консалтинговая компания, которая работает с 2012 года."
-        tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
-использованные технологии: PHP, MySQL, JQuery
-'''
-        work = "дизайн, программирование, верстка"
-
     [project.point]
         code = "point"
         title = "Internet-shop"
@@ -33,7 +30,7 @@ name = "portfolio_lang"
         tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
 использованные технологии: PHP, MySQL, JQuery
 '''
-        work = "программирование, верстка"
+        work = "front-end and back-end coding"
 
     [project.automaster]
         code = "automaster"
@@ -51,7 +48,7 @@ name = "portfolio_lang"
 
 Проект продается. Приглашаем СТО для сотрудничества. Условия на сайте http://asu.biz.ua
         '''
-        work = "дизайн, программирование, верстка"
+        work = "full development"
 
     [project.classtour]
         code = "classtour"
@@ -60,7 +57,7 @@ name = "portfolio_lang"
         tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
 использованные технологии: PHP, MySQL, JQuery
 '''
-        work = "дизайн, программирование, верстка"
+        work = "full development"
 
     [project.uagift]
         code = "uagift"
@@ -69,7 +66,7 @@ name = "portfolio_lang"
         tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
 использованные технологии: PHP, MySQL, JQuery
 '''
-        work = "программирование, верстка"
+        work = "front-end and back-end coding"
 
     [project.wilcon]
         code = "wilcon"
@@ -80,7 +77,7 @@ name = "portfolio_lang"
         tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
 использованные технологии: PHP, MySQL, JQuery
 '''
-        work = "программирование, верстка"
+        work = "front-end and back-end coding"
 
     [project.ttmaximum]
         code = "ttmaximum"
@@ -107,7 +104,7 @@ name = "portfolio_lang"
 все разделы интергрированы с форумом SMF  
 использованные технологии: PHP, MySQL, JQuery
 '''
-        work = "дизайн, программирование, верстка"
+        work = "full development"
 
     [project.ttbl]
         code = "ttbl"
@@ -118,7 +115,7 @@ name = "portfolio_lang"
         tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
 использованные технологии: PHP, MySQL, JQuery
 '''
-        work = "дизайн, программирование, верстка"
+        work = "full development"
 
     [project.meteorit]
         code = "meteorit"
@@ -129,7 +126,7 @@ name = "portfolio_lang"
         tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
 использованные технологии: PHP, MySQL, JQuery
 '''
-        work = "дизайн, программирование, верстка"
+        work = "full development"
 
     [project.campgite]
         code = "campgite"
@@ -144,7 +141,7 @@ name = "portfolio_lang"
         tech_desc = '''использованные технологии: Symfony2, JQuery  
 интеграция с платежными системами: Mollie и Ingenico ePayments
 '''
-        work = "программирование, верстка"
+        work = "front-end and back-end coding"
 
     [project.multijob]
         code = "multijob"
@@ -153,28 +150,32 @@ name = "portfolio_lang"
         tech_desc = '''использованные технологии: Symfony2, JQuery
 интеграция с платежными системами: Mollie и Ingenico ePayments
 '''
-        work = "программирование, верстка"
+        work = "front-end and back-end coding"
 
     [project.zelentsov]
         code = "zelentsov"
         title = "Attorney bureau"
         description = "Сайт адвокатского бюро"
         tech_desc = "использованные технологии: OctoberCMS, JQuery"
-        work = "дизайн, программирование, верстка"
-
-#[project.galislava]
-#        code = "galislava"
-#        title = "Магазин одежды"
-#        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deserunt, du`cimus..."
-
+        work = "full development"
 
     [project.tahir]
         code = "tahir"
         title = "Строительная компания"
         description = "Сайт визитка региональной компании, занимающейся конструированием и ремонтом кровель."
+        tech_desc = "использованные технологии: PHP, MySQL, JQuery"
+        work = "full development"
 
     [project.asu]
         code = "asu"
         title = "Визитка CRM системы"
         description = "Сайт-визитка CRM системы для продвижения услуг и учета работ СТО"
+        tech_desc = "использованные технологии: PHP, MySQL, JQuery"
+        work = "full development"
         
+    [project.psy]
+        code = "psy"
+        title = "Social net for psychologists"
+        description = "Сайт адвокатского бюро"
+        tech_desc = "использованные технологии: AstraCMS, JQuery"
+        work = "front-end and back-end coding"
