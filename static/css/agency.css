@@ -351,7 +351,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #7a2c61;
 }
 
 .navbar-default .nav li a {
@@ -453,7 +453,6 @@ header {
     background-size: cover;
     -o-background-size: cover;
     position: relative;
-    margin-top: 70px;
 }
 
 header .intro-text {
@@ -478,17 +477,13 @@ header .intro-text .intro-heading {
 
 header .intro-logo {
     background-color: #689495;
-    border-radius: 20px;
     opacity: 0.75;
-    max-width: 760px;
-    /*height: 400px;*/
     text-align: center;
     padding: 40px 50px;
-    margin: 110px auto;
 }
+
 header .intro-logo img {
-    max-width: 602px;
-    width: 100%;
+    margin: 0 auto;
 }
 
 header .intro-logo p {
@@ -517,9 +512,19 @@ header .intro-logo p {
     }
 }
 
-@media(min-width:721px and max-width:992px) {
+@media(max-width:992px) {
     header {
         background-image: url(../img/header-md.png);
+    }
+
+    header .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header .intro-logo {
+        margin: 150px 0;
     }
 }
 
@@ -527,17 +532,46 @@ header .intro-logo p {
     header {
         background-image: url(../img/header-xs.png);
     }
+
+    header .intro-logo {
+        margin: 0;
+        padding: 100px 20px;
+    }
+
+    header .intro-logo p {
+        padding: 40px 10px 80px;
+    }
+
+    header .intro-button {
+        position: absolute;
+        bottom: 65px;
+        width: 100%;
+        margin: 0; 
+    }
+}
+
+@media(min-width:993px) {
+    header .intro-logo {
+        border-radius: 20px;
+        width: 760px;
+        height: 400px;
+        margin: 110px auto;
+    }
+
+    header {
+        margin-top: 70px;
+    }
 }
 
 .lang {
     float: right;
     position: relative;
-    height: 22px;
+    height: 20px;
     width: 70px;
     border: 1px solid black;
     margin-top: 15px;
     box-sizing: border-box;
-    line-height: 20px;
+    line-height: 18px;
     background-color: #FFFFFF;
     margin-left: 80px;
 }
