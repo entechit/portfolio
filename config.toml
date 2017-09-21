@@ -36,7 +36,7 @@ googleAnalytics = ""
       # To change the background image of the hero, replace 'header-bg.jpg' in the 'static/img' folder.
   
       title = ""
-      subtitle = "Разработка сайтов и Web-приложений.<br>Готовы к сотрудничеству в реализации<br> Web-проектов любой сложности."
+      subtitle = "Разработка сайтов и Web-приложений.<br>Сотрудничество в реализации<br> Web-проектов любой сложности."
       buttonText = "Узнать больше"
       logo = "logo_intro.png"
 
@@ -58,12 +58,12 @@ googleAnalytics = ""
     brand = "Entech It"
     logo = "logo.png"
     logo_shrink = "logo_shrink.png"
-    services = "Услуги"
-    portfolio = "Портфолио"
-    techno = "Технологии"
-    about = "О нас"
-    team = "Команда"
-    contact = "Написать нам"
+    services = "Шо"
+    portfolio = "Уже"
+    techno = "Как"
+    about = "Чё"
+    team = "Мы"
+    contact = "Нам"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
