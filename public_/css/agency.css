@@ -310,16 +310,29 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-brand>img {
-    height: 43px;
-    max-width: 160px;
-    margin: 3.5px 0; 
+    height: 50px;
+    max-width: 250px;
 }
 
 @media(max-width:767px) {
     .navbar-brand>img {
         height: 34px;
-        max-width: 150px;
+        max-width: 200px;
         margin: 8px 15px; 
+    }
+}
+
+@media(min-width:768px) {
+    .navbar-brand>img {
+        height: 50px;
+        max-width: 200px;
+    }
+}
+
+@media(min-width:992px) {
+    .navbar-brand>img {
+        height: 50px;
+        max-width: 200px;
     }
 }
 
@@ -377,16 +390,12 @@ fieldset[disabled] .btn-xl.active {
     .navbar-shrink .navbar-brand .logo-shrink {
         display: none;
     }
-
-    .navbar-shrink .nav li a {
-        color: black;
-    }
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #7a2c61;
+    color: #fed136;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -428,13 +437,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand img {
-        height: 34px;
-        margin: 8px 15px;
-    }
-
-    .navbar-default.navbar-shrink .nav li a:hover,
-    .navbar-default.navbar-shrink .nav li a:focus {
-        color: #fec503;
+        height: 50px;
     }
 }
 
