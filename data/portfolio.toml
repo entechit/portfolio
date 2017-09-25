@@ -21,120 +21,90 @@ name = "portfolio"
         category = ["web_application"]
         tech = "PHP, MySQL, jQuery"
 
-    #[project.beon]
-    #    weight = 4
-    #    code = "beon"
-    #    link = "http://beonmarket.com"
-    #    category = ["corporative"]
-    #    tech = "PHP, MySQL, jQuery"
-
+    
     [project.point]
-        weight = 5
+        weight = 4
         code = "point"
         link = "http://point-collection.com.ua"
         category = ["shop"]
         tech = "PHP, MySQL, jQuery"
 
-    #[project.galislava]
-    #    weight = 6
-    #    code = "galislava"
-    #    link = "http://galislava.com"
-    #    category = ["shop"]
-    #    tech = "PHP, MySQL, jQuery"
-
+    
     [project.automaster]
-        weight = 6
+        weight = 5
         code = "automaster"
         link = "http://demo.asu.biz.ua"
         category = ["crm","corporative","blog"]
         tech = "PHP, MySQL, jQuery"
   
     [project.ttbl]
-        weight = 7
+        weight = 6
         code = "ttbl"
         link = "http://ttbl.ru"
         category = ["shop","blog"]
         tech = "PHP, MySQL, jQuery" 
 
-    #[project.classtour]
-    #    weight = 8
-    #    code = "classtour"
-    #    link = "http://class-tour.com"
-    #    category = ["corporative"]
-    #    tech = "PHP, MySQL, jQuery"
-
+    
     [project.uagift]
-        weight = 9
+        weight = 7
         code = "uagift"
         link = "http://uagift.com"
         category = ["shop"]
         tech = "PHP, MySQL, jQuery"
 
     [project.wilcon]
-        weight = 10
+        weight = 8
         code = "wilcon"
         link = "http://wilcon-security.com"
         category = ["shop"]
         tech = "PHP, MySQL, jQuery"
 
-    #[project.europsim]
-    #    weight = 11
-    #    code = "europsim"
-    #    link = "http://europsim.eu"
-    #    category = ["shop"]
-    #    tech = "PHP, MySQL, jQuery"
-
+    
     [project.ttmaximum]
-        weight = 12
+        weight = 9
         code = "ttmaximum"
         link = "http://tt-maximum.com"
         category = ["shop","community","forum","blog"]
         tech = "PHP, MySQL, jQuery, SMF-forum"
 
     [project.meteorit]
-        weight = 12
+        weight = 10
         code = "meteorit"
         link = "http://meteorit-tt.com"
         category = ["corporative"]
         tech = "PHP, MySQL, jQuery"
 
     [project.tahir]
-        weight = 13
+        weight = 11
         code = "tahir"
         link = "http://bestroof.kh.ua"
         category = ["vcard"]
         tech = "PHP, MySQL, jQuery"
 
     [project.campgite]
-        weight = 14
+        weight = 12
         code = "campgite"
         link = "http://campgite.eu"
         category = ["site_builder", "aggregator"]
         tech = "Symfony, payment systems"
 
-    #[project.multijob]
-    #    weight = 15
-    #    code = "multijob"
-    #    link = "http://multijob.eu"
-    #    category = ["catalogue","web_application"]
-    #   tech = "Symfony, payment systems"
-
+    
     [project.asu]
-        weight = 16
+        weight = 13
         code = "asu"
         link = "http://asu.biz.ua"
         category = ["vcard"]
         tech = "PHP, MySQL, jQuery"
 
     [project.zelentsov]
-        weight = 17
+        weight = 14
         code = "zelentsov"
         link = "http://zelentsov.org"
         category = ["corporative","blog"]
         tech = "OctoberCMS"
 
     [project.psy]
-        weight = 17
+        weight = 15
         code = "psy"
         link = "http://firstpsy.com"
         category = ["catalogue","blog","community"]
