@@ -50,15 +50,6 @@ name = "portfolio_lang"
         '''
         work = "full development"
 
-    [project.classtour]
-        code = "classtour"
-        title = "Tour agency"
-        description = "Сайт туристического агентства, который позволяет компании анонсировать последние новости и дает возможность посетителям подобрать для себя тур. Сайт интегрирует решения от нескольких украинских агрегаторов туров."
-        tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
-использованные технологии: PHP, MySQL, JQuery
-'''
-        work = "full development"
-
     [project.uagift]
         code = "uagift"
         title = "Internet-shop"
@@ -106,17 +97,6 @@ name = "portfolio_lang"
 '''
         work = "full development"
 
-    [project.ttbl]
-        code = "ttbl"
-        title = "Internet-shop"
-        description = '''ttbl.ru - компания, которая продает инвентарь и сопутствующие товары для настольного тенниса.  
-Данный сайт является облегченной версией tt-maximum.com и не включает в себя только блог и магазин.
-'''
-        tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
-использованные технологии: PHP, MySQL, JQuery
-'''
-        work = "full development"
-
     [project.meteorit]
         code = "meteorit"
         title = "Sport club's site"
@@ -143,14 +123,6 @@ name = "portfolio_lang"
 '''
         work = "front-end and back-end coding"
 
-    [project.multijob]
-        code = "multijob"
-        title = "Companies catalogue"
-        description = "Данный сайт представляет собой бизнес-каталог компаний с отзывами пользователей о работе с той или иной компанией."
-        tech_desc = '''использованные технологии: Symfony2, JQuery
-интеграция с платежными системами: Mollie и Ingenico ePayments
-'''
-        work = "front-end and back-end coding"
 
     [project.zelentsov]
         code = "zelentsov"
@@ -176,6 +148,6 @@ name = "portfolio_lang"
     [project.psy]
         code = "psy"
         title = "Social net for psychologists"
-        description = "Сайт адвокатского бюро"
+        description = "Соцсеть специалистов по психологии"
         tech_desc = "использованные технологии: AstraCMS, JQuery"
         work = "front-end and back-end coding"
