@@ -724,8 +724,6 @@ section h3.section-subheading {
     display: block;
     position: relative;
     margin: 0 auto;
-    /*max-width: 400px;*/
-    height: 100%;
 }
 
 .portfolio-link .portfolio-hover {
@@ -774,6 +772,7 @@ a.portfolio-link:hover {
     margin: 0;
     text-transform: none;
     color: #333;
+    font-size: 20px;
 }
 .portfolio-caption p {
     margin: 0;
@@ -1209,7 +1208,7 @@ aside .heading {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #689495;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
