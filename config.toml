@@ -58,12 +58,12 @@ googleAnalytics = ""
     brand = "Entech It"
     logo = "logo.png"
     logo_shrink = "logo_shrink.png"
-    services = "Шо"
-    portfolio = "Уже"
-    techno = "Как"
-    about = "Чё"
-    team = "Мы"
-    contact = "Нам"
+    services = "Услуги"
+    portfolio = "Проекты"
+    techno = "Технологии"
+    about = "О нас"
+    team = "Команда"
+    contact = "Написать нам"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -143,7 +143,7 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Портфолио"
+    title = "Проекты"
     subtitle = "Посмотрите наши работы"
 
     [Languages.ru.portfolio.modal]
@@ -240,6 +240,10 @@ googleAnalytics = ""
       name = "Александр"
       position = "DBA, системный адмиинстратор"
 
+    [[Languages.ru.team.members]]
+      img = "Ganaga.jpg"
+      name = "Наталья"
+      position = "копирайтер"
 
   # Contact section
   [Languages.ru.contact]
@@ -535,6 +539,11 @@ googleAnalytics = ""
       img = "SashaH.jpg"
       name = "Alexander"
       position = "DBA, system administrator"
+
+    [[Languages.en.team.members]]
+      img = "Ganaga.jpg"
+      name = "Nataly"
+      position = "Copywriter"
 
 
   # Contact section

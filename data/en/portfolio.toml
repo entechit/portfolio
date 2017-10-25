@@ -140,9 +140,9 @@ name = "portfolio_lang"
 
     [project.asu]
         code = "asu"
-        title = "Визитка CRM системы"
-        description = "Сайт-визитка CRM системы для продвижения услуг и учета работ СТО"
-        tech_desc = "использованные технологии: PHP, MySQL, JQuery"
+        title = "Autoservice CRM landing"
+        description = "Landing for autoservice CRM, inform visitors about main functions and allow subscribe on trial version"
+        tech_desc = "used technologies: PHP, MySQL, JQuery"
         work = "full development"
         
     [project.psy]
