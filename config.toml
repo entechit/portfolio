@@ -102,7 +102,7 @@ googleAnalytics = ""
     [[Languages.ru.services.row.list]]
       icon = "icon-i_1r"
       title = "Интернет<br> магазин"
-      description = "Рост продаж благодаря применению ведуших CMS и их доработки под требования закзачика."
+      description = "Рост продаж благодаря применению ведуших CMS и их доработке под требования заказчика."
       url = "#"
 
     [[Languages.ru.services.row.list]]
@@ -165,7 +165,7 @@ googleAnalytics = ""
     [[Languages.ru.about.events]]
       img = "1.jpg" 
       title = "Помогаем сформулировать"
-      description = "У вас есть идея, но она не софрмировалась настолько, чтобы быть готовым техническим заданием? Нам наравится обсуждать идеи и формулировать их."
+      description = "У вас есть идея, но она не сформировалась настолько, чтобы быть готовым техническим заданием? Нам наравится обсуждать идеи и формулировать их."
 
 
     [[Languages.ru.about.events]]
@@ -193,7 +193,7 @@ googleAnalytics = ""
     center = true
     title = "А это мы"
     subtitle = "Давайте знакомиться"
-    description = "Наши приоритеты — ответственность и доведение успешное завершение проектов."
+    description = "Наши приоритеты — ответственность и успешное завершение проектов."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
