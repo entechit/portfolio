@@ -16,8 +16,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  # name = "Your name"
-  # description = "Your description"
+  name = "EntechIT, Ukraine"
+  description = "Your description"
 
 #**************************************** РУССКИЙ ***********************************************
 [Languages]
@@ -26,7 +26,7 @@ googleAnalytics = ""
     languageName = "RU"
     weight = 2
     title = "EntechIT"
-    description = "Веб студия EntechIT, Украина приглашает к сотрудничеству заказчиков и посредников."
+    description = "Веб студия EntechIT, Украина приглашает к сотрудничеству заказчиков и посредников. Разработка сайтов-визиток, веб-приложений, интернет-магазинов, граббинг занных для интернет-магазинов. Wordpress, OpenCart, фреймворк Yii."
     name = "EntechIT"
     custom_css = ["css/icomoon.css","css/technologies.css"]
     favicon    = "favicon.ico"
@@ -88,7 +88,7 @@ googleAnalytics = ""
       title = "Технологии"
       subtitle = "Для разработки современных сайтов"
       img = "techologies.gif"
-      description = "Работаем с  <b>CMS</b> : Wordpress, OpenCart, Drupal, OctoberCMS. <br> Работаем с <b>базами данных</b> : MySql, Oracle / PLSQL, MSSQL  / T-SQL."
+      description = "Работаем с  <b>CMS</b> : Wordpress, OpenCart, Drupal, OctoberCMS, Yii. <br> Работаем с <b>базами данных</b> : MySql, Oracle / PLSQL, MSSQL  / T-SQL."
       name = "tech illustration"
 
   # Services section
@@ -102,7 +102,7 @@ googleAnalytics = ""
     [[Languages.ru.services.row.list]]
       icon = "icon-i_1r"
       title = "Интернет<br> магазин"
-      description = "Рост продаж Ваших товаров в интернете благодаря продуманным интерфейсным решениям."
+      description = "Рост продаж благодаря применению ведуших CMS и их доработки под требования закзачика."
       url = "#"
 
     [[Languages.ru.services.row.list]]
@@ -126,13 +126,13 @@ googleAnalytics = ""
     [[Languages.ru.services.row.list]]
       icon = "icon-i_5r"
       title = "Web<br> приложения"
-      description = "Уникальные решения, решаюшие прикладные задачи бизнеса: порталы, учетные системы и пр."
+      description = "Индивидуальные системы на базе CMS или нет, которые решают прикладные задачи и основаны на уникальных бизнес-процессах клиента."
       url = "#"
 	  
     [[Languages.ru.services.row.list]]
       icon = "icon-i_6r"
-      title = "Техническая<br> поддержка"
-      description = "Стабильная работа сайта, защищенность от атак и «падений», развитие для успешной оптимизации."
+      title = "Сбор <br> данных"
+      description = "Мы поможем Вам собрать данные (граббинг) для вашего каталога магазина или блога из различных источников в интернет."
       url = "#"
    
 
@@ -156,16 +156,16 @@ googleAnalytics = ""
   [Languages.ru.about]
     enable = true
     title = "Почему мы?"
-    subtitle = "Нас рекомендуют друзьям"
+    subtitle = "Наши клиенты рекомендуют нас своим друзьям"
     endpoint = "Мы еще <br> не все <br>рассказали!"
 
     # The events will be listed from the top to the bottom.
-    # All images are stored under 'static/img/about'.
+    # All images are stored under 'static/img/about'.  
     # Replace them with your own.
     [[Languages.ru.about.events]]
-      img = "1.jpg"
-      title = "Мы обеспечиваем"
-      description = "Cоздание сайта, который не устареет в ближайшие 3-5 лет. В этом нам помогают самые современные технологии и подходы, учитывающие актуальные тенденции сайтостроения."
+      img = "1.jpg" 
+      title = "Помогаем сформулировать"
+      description = "У вас есть идея, но она не софрмировалась настолько, чтобы быть готовым техническим заданием? Нам наравится обсуждать идеи и формулировать их."
 
 
     [[Languages.ru.about.events]]
@@ -193,7 +193,7 @@ googleAnalytics = ""
     center = true
     title = "А это мы"
     subtitle = "Давайте знакомиться"
-    description = "Наши приоритеты — ответственность, профессионализм, четкое выполнение <br> договорных обязанностей."
+    description = "Наши приоритеты — ответственность и доведение успешное завершение проектов."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -228,6 +228,12 @@ googleAnalytics = ""
       img = "Stas.jpg"
       name = "Станислав"
       position = "Back-end разработчик"
+
+    [[Languages.ru.team.members]]
+      img = "Vitaliy.jpg"
+      name = "Виталий"
+      position = "тестировщик"
+
 	  
 	  [[Languages.ru.team.members]]
       img = "Nataly.jpg"
@@ -249,7 +255,7 @@ googleAnalytics = ""
   [Languages.ru.contact]
     enable = true
     title = "Написать нам"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "Есть идея? Готовы обсудить, напишите и мы свяжемся с Вами"
     buttonText = "Отправить сообщение"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -309,17 +315,17 @@ googleAnalytics = ""
     enable = true
     copyright = "Разработано студией EntechIT 2017"
 
-    [[Languages.ru.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
+    #[[Languages.ru.footer.social]]
+    #  icon = "fa-twitter"
+    #  link = "#"
 
-    [[Languages.ru.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
+    #[[Languages.ru.footer.social]]
+    #  icon = "fa-facebook"
+    #  link = "#"
 
-    [[Languages.ru.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
+    #[[Languages.ru.footer.social]]
+    #  icon = "fa-linkedin"
+    #  link = "#"
 
 
 
@@ -329,7 +335,7 @@ googleAnalytics = ""
     languageName = "EN"
     weight = 1
     title = "EntechIT"
-    description = "Web-studio EntechIT, Ukraine invites to cooperation customers and intermediaries"
+    description = "Web-studio EntechIT, Ukraine invites to cooperation customers and intermediaries. Landing, web-application. e-commerce, data grabbing for e-commerce catalogues. Wordpress, OpenCart, framework Yii."
     name = "EntechIT"
     custom_css = ["css/icomoon.css","css/technologies.css"]
     custom_js  = []
@@ -341,7 +347,7 @@ googleAnalytics = ""
     [Languages.en.hero]
       # To change the background image of the hero, replace 'header-bg.jpg' in the 'static/img' folder.
       title = ""
-      subtitle = "Разработка сайтов и Web-приложений.<br>Готовы к сотрудничеству в реализации<br> Web-проектов любой сложности."
+      subtitle = "WEB site and application development.<br>We are ready to cooperation in  projects of any size and compexity."
       buttonText = "Get more"
       logo = "logo_intro.png"
 
@@ -386,7 +392,7 @@ googleAnalytics = ""
       title = "Technologies"
       subtitle = "which we use in our works"
       img = "techologies.gif"
-      description = "<b>CMS</b> : Wordpress, OpenCart, Drupal, OctoberCMS. <br> <b>RDBS</b> : MySql, Oracle / PLSQL, MSSQL / T-SQL."
+      description = "<b>CMS</b> : Wordpress, OpenCart, Drupal, OctoberCMS, Yii. <br> <b>RDBS</b> : MySql, Oracle / PLSQL, MSSQL / T-SQL."
       name = "tech illustration"
 
   # Services section
@@ -399,41 +405,40 @@ googleAnalytics = ""
     [[Languages.en.services.row.list]]
       icon = "icon-i_1r"
       title = "E-shop"
-      description = "Рост продаж Ваших товаров в интернете благодаря продуманным интерфейсным решениям."
+      description = "Raise your sales due to applying stable and customized for you leadings CMS."
       url = "#"
 
     [[Languages.en.services.row.list]]
       icon = "icon-i_2r"
       title = "Corporate <br> site"
-      description = "Создание имиджа компании для повышения конкурентоспособности Вашего бизнеса."
+      description = "Creating company image for competitiveness raising."
       url = "#"
 
     [[Languages.en.services.row.list]]
       icon = "icon-i_3r"
       title = "Landing<br> page"
-      description = "Покупка в один клик! Разработаем яркий и эффективный дизайн для рекламы Вашего товара."
-    url = "#"
+      description = "Purchase in one click! We will develop a bright and effective design for advertising your product."
+      url = "#"
     
     [[Languages.en.services.row.list]]
       icon = "icon-i_4r"
       title = "Business card <br> website"
-      description = "Сайт  из 5-10 страниц. Заказывают специалисты: преподаватели, юристы, врачи и другие профессионалы."
-    url = "#"
+      description = "Website with 5-10 pages. Common for specialists like: instructors, lawers, doctos and other professionals."
+      url = "#"
     
     [[Languages.en.services.row.list]]
       icon = "icon-i_5r"
       title = "Web<br> applications"
-      description = "Системы электронных платежей, корпоративных порталов, включающих документооборот, почту, календарь и множество других функций."
+      description = "Customized systems based on CMS or not, which solve applicable tasks and based on unuqie customer business processes."
       url = "#"
     
     [[Languages.en.services.row.list]]
       icon = "icon-i_6r"
-      title = "Technical <br> support"
-      description = "Стабильная работа сайта, защищенность от атак и «падений», развитие для успешной оптимизации."
+      title = "Data <br> grabbing"
+      description = "We can help you collect information for your e-commerce or application from different sources in web."
       url = "#"
 
-    
-    
+        
 
   # Portfolio section
   [Languages.en.portfolio]
@@ -443,7 +448,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "read our works"
+    subtitle = "Look through our works"
 
     [Languages.en.portfolio.modal]
       client = "Client"
@@ -454,17 +459,17 @@ googleAnalytics = ""
     # About section
   [Languages.en.about]
     enable = true
-    title = "Почему мы?"
-    subtitle = "Нас рекомендуют друзьям"
-    endpoint = "Мы еще <br> не все <br>рассказали!"
+    title = "Why us?"
+    subtitle = "Our customers recommend us to their firends"
+    endpoint = "It's not all<br>we want to <br>present!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[Languages.en.about.events]]
       img = "1.jpg"
-      title = "Мы обеспечиваем"
-      description = "Cоздание сайта, который не устареет в ближайшие 3-5 лет. В этом нам помогают самые современные технологии и подходы, учитывающие актуальные тенденции сайтостроения."
+      title = "We help you to figure out"
+      description = "You have an idea but it's not ready as formal technical requirement? We like to take part in discussions for figuring out an ideas and help to formalize they." 
 
 
     [[Languages.en.about.events]]
@@ -492,7 +497,7 @@ googleAnalytics = ""
     center = true
     title = "This is us"
     subtitle = "Let's get acquainted"
-    description = "Наши приоритеты — ответственность, профессионализм, четкое выполнение <br> договорных обязанностей."
+    description = "Our priorities are responsibility and the successful completion of projects."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -530,6 +535,11 @@ googleAnalytics = ""
       position = "Back-end developer"
     
     [[Languages.en.team.members]]
+      img = "Vitaliy.jpg"
+      name = "Vitaliy"
+      position = "QA"
+
+    [[Languages.en.team.members]]
       img = "Nataly.jpg"
       name = "Natalia"
       position = "Front-end developer"
@@ -550,7 +560,7 @@ googleAnalytics = ""
   [Languages.en.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "You have an idea? We a ready to discuss it, mail us and we get in touch with you"
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -602,14 +612,14 @@ googleAnalytics = ""
     enable = true
     copyright = "Created by EntechIT 2017"
 
-    [[Languages.en.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
+  #  [[Languages.en.footer.social]]
+  #    icon = "fa-twitter"
+  #    link = "#"
 
-    [[Languages.en.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
+  #  [[Languages.en.footer.social]]
+  #    icon = "fa-facebook"
+  #    link = "#"
 
-    [[Languages.en.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
+  #  [[Languages.en.footer.social]]
+  #    icon = "fa-linkedin"
+  #    link = "#"

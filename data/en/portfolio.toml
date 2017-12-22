@@ -4,21 +4,21 @@ name = "portfolio_lang"
         code = "entecheco"
         title = "IT-company"
         description = "Корпоративный сайт IT-компании. Целью проекта было повысить узнаваемость компании на рынке, способствовать продвижению продуктов и услуг компании на рынке. Для сайта разработан уникальный шаблон WordPress основанный на идеях material design."
-        tech_desc = "использованные технологии: PHP, MySQL, JQuery"
+        tech_desc = "used technologies: PHP, MySQL, JQuery"
         work = "full development"
 
     [project.tsm]
         code = "tsm"
-        title = "Группа производственных компаний"
+        title = "Production companies group"
         description = "Корпоративный сайт группы производственных компаний. Целью проекта было повысить узнаваемость компании на рынке, способствовать продвижению продуктов и услуг компании на рынке."
-        tech_desc = "использованные технологии: PHP, MySQL, JQuery"
+        tech_desc = "used technologies: PHP, MySQL, JQuery"
         work = "full development"
 
     [project.xochuxa]
         code = "xochuxa"
-        title = "Социальный стартап Хочуха"
+        title = "Social startup Хочуха"
         description = "Web-приложение, предназначенное для обмена своими пожеланиями для подарков. Приложение формирует сообщество, с возможностью обсуждения подарков, формирование системных и почтовых уведомлений по различным событиям."
-        tech_desc = "использованные технологии: PHP, MySQL, JQuery"
+        tech_desc = "used technologies: PHP, MySQL, JQuery"
         work = "full development"
     
     [project.point]
@@ -28,7 +28,7 @@ name = "portfolio_lang"
 Сайт направлен на работу с оптовыми покупателями и предоставляет информацию о последних коллекциях компании.
 '''
         tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
-использованные технологии: PHP, MySQL, JQuery
+used technologies: PHP, MySQL, JQuery
 '''
         work = "front-end and back-end coding"
 
@@ -55,7 +55,7 @@ name = "portfolio_lang"
         title = "Internet-shop"
         description = "Магазин по продаже сувенирной продукции - матрешек, картин, изделий из керамики."
         tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
-использованные технологии: PHP, MySQL, JQuery
+used technologies: PHP, MySQL, JQuery
 '''
         work = "front-end and back-end coding"
 
@@ -66,7 +66,7 @@ name = "portfolio_lang"
 Сайт представляет собой магазин ориентированный в первую очередь на работу с оптовыми покупателями. Для этого была реализована мощная система учета и начисления скидок.
 '''
         tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
-использованные технологии: PHP, MySQL, JQuery
+used technologies: PHP, MySQL, JQuery
 '''
         work = "front-end and back-end coding"
 
@@ -93,7 +93,7 @@ name = "portfolio_lang"
 '''
         tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
 все разделы интергрированы с форумом SMF  
-использованные технологии: PHP, MySQL, JQuery
+used technologies: PHP, MySQL, JQuery
 '''
         work = "full development"
 
@@ -104,7 +104,7 @@ name = "portfolio_lang"
 Сайт дает возможность спортсменам и любителям следить за новостями клуба и   получать оперативную информацию о турнирах.
 '''
         tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
-использованные технологии: PHP, MySQL, JQuery
+used technologies: PHP, MySQL, JQuery
 '''
         work = "full development"
 
@@ -118,7 +118,7 @@ name = "portfolio_lang"
 
 Подключать ли он-лайн оплату и способ ее проведения проведения выбирает владелец сайта в настройках. На настоящий момент возможно использование одного из двух европейских платежных серверов: Mollie и Ingenico ePayments(Ogone).
 '''
-        tech_desc = '''использованные технологии: Symfony2, JQuery  
+        tech_desc = '''used technologies: Symfony2, JQuery  
 интеграция с платежными системами: Mollie и Ingenico ePayments
 '''
         work = "front-end and back-end coding"
@@ -128,14 +128,14 @@ name = "portfolio_lang"
         code = "zelentsov"
         title = "Attorney bureau"
         description = "Сайт адвокатского бюро"
-        tech_desc = "использованные технологии: OctoberCMS, JQuery"
+        tech_desc = "used technologies: OctoberCMS, JQuery"
         work = "full development"
 
     [project.tahir]
         code = "tahir"
-        title = "Строительная компания"
-        description = "Сайт визитка региональной компании, занимающейся конструированием и ремонтом кровель."
-        tech_desc = "использованные технологии: PHP, MySQL, JQuery"
+        title = "Building company"
+        description = "Landing of local bbuilding company, spesialized on roofs construction and repearing."
+        tech_desc = "used technologies: PHP, MySQL, JQuery"
         work = "full development"
 
     [project.asu]
@@ -148,6 +148,6 @@ name = "portfolio_lang"
     [project.psy]
         code = "psy"
         title = "Social net for psychologists"
-        description = "Соцсеть специалистов по психологии"
-        tech_desc = "использованные технологии: AstraCMS, JQuery"
+        description = "Social network for psycologists"
+        tech_desc = "used technologies: AstraCMS, JQuery"
         work = "front-end and back-end coding"
