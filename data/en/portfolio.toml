@@ -140,8 +140,8 @@ used technologies: PHP, MySQL, JQuery
 
     [project.asu]
         code = "asu"
-        title = "Autoservice CRM landing"
-        description = "Landing for autoservice CRM, inform visitors about main functions and allow subscribe on trial version"
+        title = "Car service CRM landing"
+        description = "Landing for car service CRM, inform visitors about main functions and allow subscribe on trial version"
         tech_desc = "used technologies: PHP, MySQL, JQuery"
         work = "full development"
         

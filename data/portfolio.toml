@@ -4,14 +4,14 @@ name = "portfolio"
         weight = 1
         code = "entecheco"
         link = "http://www.entecheco.com"
-        category = ["corporative"]
+        category = ["corporate"]
         tech = "WordPress, JS"
 
     [project.tsm]
         weight = 2
         code = "tsm"
         link = "#"
-        category = ["corporative"]
+        category = ["corporate"]
         tech = "WordPress, JS"
 
     [project.xochuxa]
@@ -34,7 +34,7 @@ name = "portfolio"
         weight = 5
         code = "automaster"
         link = "http://demo.asu.biz.ua"
-        category = ["crm","corporative","blog"]
+        category = ["crm","corporate","blog"]
         tech = "PHP, MySQL, jQuery"
   
     [project.uagift]
@@ -63,7 +63,7 @@ name = "portfolio"
         weight = 9
         code = "meteorit"
         link = "http://meteorit-tt.com"
-        category = ["corporative"]
+        category = ["corporate"]
         tech = "PHP, MySQL, jQuery"
 
     [project.tahir]
@@ -92,7 +92,7 @@ name = "portfolio"
         weight = 13
         code = "zelentsov"
         link = "http://zelentsov.org"
-        category = ["corporative","blog"]
+        category = ["corporate","blog"]
         tech = "OctoberCMS"
 
     [project.psy]

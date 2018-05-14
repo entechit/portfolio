@@ -102,7 +102,7 @@ googleAnalytics = ""
     [[Languages.ru.services.row.list]]
       icon = "icon-i_1r"
       title = "Интернет<br> магазин"
-      description = "Рост продаж благодаря применению ведуших CMS и их доработке под требования заказчика."
+      description = "Рост продаж благодаря применению ведущих CMS и их доработке под требования заказчика."
       url = "#"
 
     [[Languages.ru.services.row.list]]
@@ -165,7 +165,7 @@ googleAnalytics = ""
     [[Languages.ru.about.events]]
       img = "1.jpg" 
       title = "Помогаем сформулировать"
-      description = "У вас есть идея, но она не сформировалась настолько, чтобы быть готовым техническим заданием? Нам наравится обсуждать идеи и формулировать их."
+      description = "У вас есть идея, но она не сформировалась настолько, чтобы быть готовым техническим заданием? Нам нравится обсуждать идеи и формулировать их."
 
 
     [[Languages.ru.about.events]]
@@ -244,7 +244,7 @@ googleAnalytics = ""
 	  [[Languages.ru.team.members]]
       img = "SashaH.jpg"
       name = "Александр"
-      position = "DBA, системный адмиинстратор"
+      position = "DBA, системный администратор"
 
     [[Languages.ru.team.members]]
       img = "Ganaga.jpg"
@@ -423,13 +423,13 @@ googleAnalytics = ""
     [[Languages.en.services.row.list]]
       icon = "icon-i_4r"
       title = "Business card <br> website"
-      description = "Website with 5-10 pages. Common for specialists like: instructors, lawers, doctos and other professionals."
+      description = "Website with 5-10 pages. Common for specialists like: instructors, lawyers, doctors and other professionals."
       url = "#"
     
     [[Languages.en.services.row.list]]
       icon = "icon-i_5r"
       title = "Web<br> applications"
-      description = "Customized systems based on CMS or not, which solve applicable tasks and based on unuqie customer business processes."
+      description = "Customized systems based on CMS or not, which solve applicable tasks and based on customer's unique business processes."
       url = "#"
     
     [[Languages.en.services.row.list]]
@@ -460,7 +460,7 @@ googleAnalytics = ""
   [Languages.en.about]
     enable = true
     title = "Why us?"
-    subtitle = "Our customers recommend us to their firends"
+    subtitle = "Our customers recommend us to their friends"
     endpoint = "It's not all<br>we want to <br>present!"
 
     # The events will be listed from the top to the bottom.
