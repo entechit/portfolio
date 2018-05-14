@@ -156,7 +156,7 @@ googleAnalytics = ""
   [Languages.ru.about]
     enable = true
     title = "Почему мы?"
-    subtitle = "Наши клиенты рекомендуют нас своим друзьям"
+    subtitle = "Мы команда из Украины, г.Харьков. В нашей работе мы признаем, что основная ценность проекта - это удовлетворенность заказчика результатом. Наши клиенты рекомендуют нас своим друзьям."
     endpoint = "Мы еще <br> не все <br>рассказали!"
 
     # The events will be listed from the top to the bottom.
@@ -177,7 +177,7 @@ googleAnalytics = ""
       img = "3.jpg"
       date = "December 2012"
       title = "Помогаем Вашему бизнесу"
-      description = "Создание проектов ведется с целью получения максимальной коммерческой выгоды либо решения бизнес-задач, актуальных для заказчика. Вы получаете стабильно работающий инструмент для продаж, увеличения аудитории, обратной связи, рекламы или любых других целей."
+      description = "Проекты создаются для решения бизнес-задач заказчика. Заказчик получает стабильно работающий инструмент для продаж, увеличения аудитории, обратной связи, рекламы."
 
     [[Languages.ru.about.events]]
       img = "4.jpg"
@@ -460,7 +460,7 @@ googleAnalytics = ""
   [Languages.en.about]
     enable = true
     title = "Why us?"
-    subtitle = "Our customers recommend us to their friends"
+    subtitle = "We are a team from Ukraine, Kharkov. In our work, we declare that the main value of the project is the customer's satisfaction with the result. Our clients recommend us to their friends."
     endpoint = "It's not all<br>we want to <br>present!"
 
     # The events will be listed from the top to the bottom.
@@ -474,20 +474,20 @@ googleAnalytics = ""
 
     [[Languages.en.about.events]]
       img = "2.jpg"
-      title = "Ориентируемся на аудиторию"
-      description = "Разработка интернет-ресурсов начинается с анализа поведения и потребностей целевых пользователей. Учитывая эти факторы, мы прорабатываем юзабилити, создаем уникальные решения, работаем над дизайном и функциональными элементами сайтов."
+      title = "We are audience oriented"
+      description = "Development of Internet resources begins with an analysis of the behavior and needs of target users. Given these factors, we are working on usability, creating unique solutions, working on design and functional elements of sites."
 
     [[Languages.en.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Помогаем Вашему бизнесу"
-      description = "Создание проектов ведется с целью получения максимальной коммерческой выгоды либо решения бизнес-задач, актуальных для заказчика. Вы получаете стабильно работающий инструмент для продаж, увеличения аудитории, обратной связи, рекламы или любых других целей."
+      date = "May 2018"
+      title = "We help to your business"
+      description = "Projects are created to solve business problems of our customers. The customers receive a stable working tool for sales, audience increase, feedback, advertising etc."
 
     [[Languages.en.about.events]]
       img = "4.jpg"
       date = "July 2014"
-      title = "Мы работаем с удовольствием"
-      description = "А это значит, что каждая разработка сайта ведется с уникальными подходами, без спешки и с акцентом на качество – так, как будто делается для себя."
+      title = "We work with pleasure"
+      description = "And this means that every website development is conducted with unique approaches, without haste and with an emphasis on quality - as if it's done for oneself."
 
 
   # Team section
