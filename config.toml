@@ -581,7 +581,7 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "entechit@ukr.net"
+    email = "a_savinih@ukr.net"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
