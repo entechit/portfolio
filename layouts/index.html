@@ -13,10 +13,10 @@
    
 
     {{ if .Site.Params.portfolio.enable }}
-      {{ partial "portfolio.html" . }}
+      {{ partial "portfolios.html" . }}
     {{ end }}
 	
-	{{ if .Site.Params.technologies.enable }}
+    {{ if .Site.Params.technologies.enable }}
       {{ partial "technologies.html" . }}
     {{ end }}
 

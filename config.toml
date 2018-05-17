@@ -1,8 +1,8 @@
 # Site settings
 #baseurl = "http://localhost:1313/"
-baseurl = "http://entechit.com.ua/"
+baseurl = "https://www.entechit.com.ua/"
 languageCode = "en-us"
-title = "EntechIT"
+title = "EntechIT WEB-studio"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -25,8 +25,8 @@ googleAnalytics = ""
  [Languages.ru]
     languageName = "RU"
     weight = 2
-    title = "EntechIT"
-    description = "Веб студия EntechIT, Украина приглашает к сотрудничеству заказчиков и посредников. Разработка сайтов-визиток, веб-приложений, интернет-магазинов, граббинг занных для интернет-магазинов. Wordpress, OpenCart, фреймворк Yii."
+    title = "Разработка сайтов и веб-приложений под ключ от студии Entechit"
+    description = "Веб студия EntechIT, Украина приглашает к сотрудничеству заказчиков и посредников. Разработка сайтов-визиток, веб-приложений, интернет-магазинов, граббинг данных для интернет-магазинов. Wordpress, OpenCart, фреймворк Yii."
     name = "EntechIT"
     custom_css = ["css/icomoon.css","css/technologies.css"]
     favicon    = "favicon.ico"
@@ -334,7 +334,7 @@ googleAnalytics = ""
   [Languages.en]
     languageName = "EN"
     weight = 1
-    title = "EntechIT"
+    title = "Development of websites and web applications from the Entechit studio"
     description = "Web-studio EntechIT, Ukraine invites to cooperation customers and intermediaries. Landing, web-application. e-commerce, data grabbing for e-commerce catalogues. Wordpress, OpenCart, framework Yii."
     name = "EntechIT"
     custom_css = ["css/icomoon.css","css/technologies.css"]

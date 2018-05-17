@@ -3,14 +3,14 @@ name = "portfolio_lang"
     [project.entecheco]
         code = "entecheco"
         title = "IT-company"
-        description = "Корпоративный сайт IT-компании. Целью проекта было повысить узнаваемость компании на рынке, способствовать продвижению продуктов и услуг компании на рынке. Для сайта разработан уникальный шаблон WordPress основанный на идеях material design."
+        description = "Corporate site for needs IT- company. The main purposes of creating project are improving goodwill of company among competitors, facilitating to promotion goods and services. We designed unique template WordPress, which based on main approaches by Material Design concept."
         tech_desc = "used technologies: PHP, MySQL, JQuery"
         work = "full development"
 
     [project.tsm]
         code = "tsm"
         title = "Production companies group"
-        description = "Корпоративный сайт группы производственных компаний. Целью проекта было повысить узнаваемость компании на рынке, способствовать продвижению продуктов и услуг компании на рынке."
+        description = "Corporate site aimed to increasing Brand’s recognizing on market of construction materials.  Achieved deliverables  are  trust to quality of material, throught performance complete information about  properties and technologies applied for producing material."
         tech_desc = "used technologies: PHP, MySQL, JQuery"
         work = "full development"
 
