@@ -10,24 +10,23 @@ name = "portfolio_lang"
     [project.tsm]
         code = "tsm"
         title = "Production companies group"
-        description = "Corporate site aimed to increasing Brand’s recognizing on market of construction materials.  Achieved deliverables  are  trust to quality of material, throught performance complete information about  properties and technologies applied for producing material."
+        description = "Corporate site aimed to increasing Brand’s recognizing on market of construction materials.  Achieved deliverables  are  trust to quality of material, through performance complete information about  properties and technologies applied for producing material."
         tech_desc = "used technologies: PHP, MySQL, JQuery"
         work = "full development"
 
     [project.xochuxa]
         code = "xochuxa"
         title = "Social startup Хочуха"
-        description = "Web-приложение, предназначенное для обмена своими пожеланиями для подарков. Приложение формирует сообщество, с возможностью обсуждения подарков, формирование системных и почтовых уведомлений по различным событиям."
+        description = "Web- application was elaborated for exchanging information about wished presents between accepted users. Application has been  forming social network,  which has ability for users to discuss future presents. Also, we have designed functionality for creating different system messages, which inform users about events."
         tech_desc = "used technologies: PHP, MySQL, JQuery"
         work = "full development"
     
     [project.point]
         code = "point"
         title = "Internet-shop"
-        description = '''PointT - украинская компания, которая производит верхнюю женскую одежду.  
-Сайт направлен на работу с оптовыми покупателями и предоставляет информацию о последних коллекциях компании.
-'''
-        tech_desc = '''сайт реализован на собственной CMS (системе управления содержимым)  
+        description = '''Site designed for Ukrainian tailoring factory, which produce different models of coats and jackets. The main direction is selling goods to wholesale buyers. Site include information about new collections and conditions to collaboration.
+        '''
+        tech_desc = '''used custom CMS   
 used technologies: PHP, MySQL, JQuery
 '''
         work = "front-end and back-end coding"
@@ -35,18 +34,19 @@ used technologies: PHP, MySQL, JQuery
     [project.automaster]
         code = "automaster"
         title = "CRM system"
-        description = '''WEB-приложение, обеспечивающее полный цикл работы автосервиса с клиентами:
+        description = '''Web application provides full lifecycle of working repair car station with customers:
 
-- продвижение услуг СТО на рылке, через сайт (визитка, блог)
-- получение с сайта заявок на обслужвание автомобилей
-- планирование работ через формирование графика работы СТО и загрузки рабочих мест
-- учет работ с формированием нарядов
-- система нормирования работ и нормативные справочники
-- формирование сервисной книги клиента и отображение ее в личном кабинете
-- обеспечение обратной связи книентов с топ-менеджментом по выполненным работам
-- формирование внутренней управленческой отчетности
+- forwarding services (business card site, blog)
+- receiving and registration of applications to repair car 
+- schedule working places and human resources
+- measuring work with forming approved tasks and hours  
+- system identifying various works and rating catalogs
+- performing Client’s service book and it’s available into My Account
+- Client's reviews about services 
+- interior reports  
 
-Проект продается. Приглашаем СТО для сотрудничества. Условия на сайте http://asu.biz.ua
+
+This project is available to selling. We propose collaboration with Car Repair Stations. More information  http://asu.biz.ua
         '''
         work = "full development"
 
